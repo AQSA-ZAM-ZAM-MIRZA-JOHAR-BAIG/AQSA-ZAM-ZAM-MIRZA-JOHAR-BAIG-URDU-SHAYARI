@@ -56,23 +56,26 @@ export default function ShayariCard({ shayari }) {
       return;
     }
 
-    // Try finding a Hindi or Urdu voice
-    const voices = window.speechSynthesis.getVoices();
-    const preferredVoice = voices.find(voice => 
-      voice.lang.includes('ur') || voice.lang.includes('hi')
-    );
-
-    const textToRead = showHindi && shayari.hindi ? shayari.hindi : shayari.text;
+    // Always use Hindi transliteration for speech since Devanagari 
+    // is much more reliably supported by OS TTS engines than Urdu script.
+    const textToRead = shayari.hindi || shayari.text;
     const utterance = new SpeechSynthesisUtterance(textToRead);
     
     // Set parameters
     utterance.rate = 0.85; // slightly slower for poetic feel
     utterance.pitch = 1;
+
+    // Try finding a Hindi voice first, then Urdu
+    const voices = window.speechSynthesis.getVoices();
+    const preferredVoice = voices.find(voice => 
+      voice.lang.includes('hi') || voice.lang.includes('ur')
+    );
+
     if (preferredVoice) {
       utterance.voice = preferredVoice;
     } else {
       // Fallback language hint
-      utterance.lang = showHindi ? 'hi-IN' : 'ur-PK'; 
+      utterance.lang = 'hi-IN'; 
     }
 
     utterance.onend = () => setIsPlaying(false);
