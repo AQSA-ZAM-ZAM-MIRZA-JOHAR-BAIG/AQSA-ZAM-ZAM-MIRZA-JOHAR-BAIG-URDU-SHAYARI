@@ -15,7 +15,7 @@ export default function Navbar() {
           <span className="brand-text text-gradient">Urdu Shayari</span>
         </Link>
 
-        <nav className="nav-links">
+        <nav className="nav-links" aria-label="Main navigation">
           <Link 
             to="/favorites" 
             className={`nav-link ${location.pathname === '/favorites' ? 'active' : ''}`}

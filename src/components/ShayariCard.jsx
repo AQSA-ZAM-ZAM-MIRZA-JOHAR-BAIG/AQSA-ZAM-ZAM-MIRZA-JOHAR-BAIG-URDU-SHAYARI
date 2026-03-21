@@ -86,8 +86,8 @@ export default function ShayariCard({ shayari }) {
   };
 
   return (
-    <div className="shayari-card glass animate-fade-in">
-      <div className="card-header">
+    <article className="shayari-card glass animate-fade-in">
+      <header className="card-header">
         <span className="category-badge">{shayari.category}</span>
         <div className="header-actions">
           {shayari.hindi && (
@@ -108,7 +108,7 @@ export default function ShayariCard({ shayari }) {
             <Heart size={20} fill={isFav ? "currentColor" : "none"} />
           </button>
         </div>
-      </div>
+      </header>
 
       <div className="card-body">
         {showHindi && shayari.hindi ? (
@@ -118,7 +118,7 @@ export default function ShayariCard({ shayari }) {
         )}
       </div>
 
-      <div className="card-footer">
+      <footer className="card-footer">
         <span className="poet-name">— {shayari.poet}</span>
         
         <div className="card-actions">
@@ -147,7 +147,7 @@ export default function ShayariCard({ shayari }) {
             <Share2 size={18} />
           </button>
         </div>
-      </div>
-    </div>
+      </footer>
+    </article>
   );
 }

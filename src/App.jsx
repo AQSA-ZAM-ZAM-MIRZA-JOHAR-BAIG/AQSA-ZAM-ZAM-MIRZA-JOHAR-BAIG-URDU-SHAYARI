@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './context/ThemeContext';
 import { FavoritesProvider } from './context/FavoritesContext';
 import Navbar from './components/Navbar';
@@ -9,8 +10,9 @@ import './App.css';
 
 function App() {
   return (
-    <ThemeProvider>
-      <FavoritesProvider>
+    <HelmetProvider>
+      <ThemeProvider>
+        <FavoritesProvider>
         <Router>
           <div className="app-container">
             <Navbar />
@@ -23,8 +25,9 @@ function App() {
             <Footer />
           </div>
         </Router>
-      </FavoritesProvider>
-    </ThemeProvider>
+        </FavoritesProvider>
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 

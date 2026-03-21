@@ -3,6 +3,7 @@ import SearchBar from '../components/SearchBar';
 import FilterBar from '../components/FilterBar';
 import ShayariCard from '../components/ShayariCard';
 import DailyShayari from '../components/DailyShayari';
+import SEO from '../components/SEO';
 import shayariData from '../data/shayari.json';
 import './HomePage.css';
 
@@ -36,6 +37,21 @@ export default function HomePage() {
 
   return (
     <div className="container page-container animate-fade-in">
+      <SEO 
+        title={searchTerm ? `Search: ${searchTerm}` : selectedPoet !== 'All' ? `Poetry by ${selectedPoet}` : selectedCategory !== 'All' ? `${selectedCategory} Shayari` : 'Home'}
+        description={`Explore the best ${selectedCategory !== 'All' ? selectedCategory : 'Urdu'} Shayari${selectedPoet !== 'All' ? ` by ${selectedPoet}` : ' from legendary poets'}. Share beautiful verses with your loved ones.`}
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Urdu Shayari by Aqsa Mirza",
+          "url": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }}
+      />
       {/* Search and Filters */}
       <section className="search-section">
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
