@@ -4,6 +4,7 @@ import { FavoritesProvider } from './context/FavoritesContext';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import FavoritesPage from './pages/FavoritesPage';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/favorites" element={<FavoritesPage />} />
               </Routes>
             </main>
+            <Footer />
           </div>
         </Router>
       </FavoritesProvider>
