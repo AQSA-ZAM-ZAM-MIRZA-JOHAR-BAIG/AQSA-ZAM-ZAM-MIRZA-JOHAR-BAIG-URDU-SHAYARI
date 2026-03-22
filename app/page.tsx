@@ -120,7 +120,7 @@ export default function Home() {
             {/* Profile Photo */}
             <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-amber-500/60 shadow-2xl mb-8 ring-4 ring-white/10">
               <Image
-                src="/profile.jpeg"
+                src="/profile.png"
                 alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati"
                 fill
                 className="object-cover"

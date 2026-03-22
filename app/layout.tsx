@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
     images: [
       {
-        url: '/profile.jpeg',
+        url: '/profile.png',
         width: 1200,
         height: 630,
         alt: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student & Legal Researcher',
     description:
       'Discover legal research, blogs, and Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG, Law Student at PDLC Amravati.',
-    images: ['/profile.jpeg'],
+    images: ['/profile.png'],
   },
   alternates: {
     canonical: 'https://aqsajoharbaig.vercel.app',

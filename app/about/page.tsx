@@ -91,7 +91,7 @@ export default function About() {
               <div className="flex flex-col items-center">
                 <div className="relative w-48 h-48 rounded-2xl overflow-hidden border-4 border-amber-500/40 shadow-xl mb-4">
                   <Image
-                    src="/profile.jpeg"
+                    src="/profile.png"
                     alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati"
                     fill
                     className="object-cover"
