@@ -1,5 +1,7 @@
 User-Agent: *
 Allow: /
 Disallow: /api/
+Disallow: /_next/
 
-Sitemap: https://aqsajoharbaig.com/sitemap.xml
+Host: https://aqsajoharbaig.vercel.app
+Sitemap: https://aqsajoharbaig.vercel.app/sitemap.xml

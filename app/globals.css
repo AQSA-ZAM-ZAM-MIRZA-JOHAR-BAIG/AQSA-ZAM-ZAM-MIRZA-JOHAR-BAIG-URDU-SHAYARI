@@ -2,24 +2,221 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ================================================
+   AQSA ZAM ZAM MIRZA JOHAR BAIG — Global Styles
+   Law Portfolio | Legal Researcher | Urdu Poet
+   ================================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #2563eb;
-  --secondary: #4f46e5;
+  /* Brand Palette — Deep Navy & Warm Gold */
+  --background: #f8f7f4;
+  --foreground: #1a1a2e;
+  --primary: #1e3a5f;
+  --primary-light: #2e5f8f;
+  --accent: #c9973a;
+  --accent-light: #e8b355;
+  --surface: #ffffff;
+  --surface-2: #f0efe9;
+  --border: #e2e0d8;
+  --muted: #6b7280;
+  --hero-gradient: linear-gradient(135deg, #1a1a2e 0%, #1e3a5f 50%, #16213e 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f172a;
-    --foreground: #f8fafc;
-    --primary: #3b82f6;
-    --secondary: #6366f1;
-  }
+.dark {
+  --background: #0d111a;
+  --foreground: #e8e6e0;
+  --primary: #4a90d9;
+  --primary-light: #6aacef;
+  --accent: #e8b355;
+  --accent-light: #f5ca75;
+  --surface: #111827;
+  --surface-2: #1f2937;
+  --border: #2d3748;
+  --muted: #9ca3af;
+  --hero-gradient: linear-gradient(135deg, #0d111a 0%, #111827 50%, #0f1923 100%);
+}
+
+/* ================================================
+   BASE TYPOGRAPHY
+   ================================================ */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Headings — Playfair Display for elegance */
+h1, h2, h3 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  line-height: 1.2;
+}
+
+/* ================================================
+   URDU / RTL TYPOGRAPHY
+   ================================================ */
+.urdu-text {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Traditional Arabic', serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2.4;
+  font-size: 1.35rem;
+}
+
+.urdu-text-lg {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Traditional Arabic', serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2.6;
+  font-size: 1.6rem;
+}
+
+/* ================================================
+   COMPONENT UTILITIES
+   ================================================ */
+.gradient-hero {
+  background: var(--hero-gradient);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .text-gradient {
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card-hover:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.2s ease, transform 0.1s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background: var(--primary-light);
+  transform: translateY(-1px);
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.2s ease, transform 0.1s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-accent:hover {
+  background: var(--accent-light);
+  transform: translateY(-1px);
+}
+
+.section-divider {
+  width: 64px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 2px;
+  margin: 0 auto 2rem auto;
+}
+
+/* ================================================
+   SCROLLBAR STYLING
+   ================================================ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3px;
+}
+
+/* ================================================
+   ANIMATIONS
+   ================================================ */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out both;
+}
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-500 { animation-delay: 0.5s; }
+
+/* ================================================
+   PROSE / LONG-FORM CONTENT
+   ================================================ */
+.prose-law p {
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+.prose-law strong {
+  color: var(--foreground);
+}
+.prose-law h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* ================================================
+   TAILWIND PLUGIN: primary color class
+   ================================================ */
+.text-primary { color: var(--primary); }
+.dark .text-primary { color: var(--primary-light); }
+.bg-primary { background-color: var(--primary); }
+.border-primary { border-color: var(--primary); }
