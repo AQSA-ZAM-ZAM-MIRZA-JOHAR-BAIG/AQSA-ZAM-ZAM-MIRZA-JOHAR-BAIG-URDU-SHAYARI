@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary shadow-2xl mb-8 bg-white flex items-center justify-center">
             <Image
-              src="/profile.jpg"
+              src="/profile.jpeg"
               alt="AQSA ZAM ZAM MIRZA JOHAR BAIG"
               fill
               className="object-cover"
