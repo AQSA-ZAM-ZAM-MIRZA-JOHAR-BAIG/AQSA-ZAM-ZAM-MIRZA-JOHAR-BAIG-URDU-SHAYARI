@@ -13,9 +13,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full min-h-[90vh] flex flex-col justify-center items-center text-center px-4 pt-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
-          <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary shadow-2xl mb-8">
+          <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary shadow-2xl mb-8 bg-white flex items-center justify-center">
             <Image
-              src="https://placehold.co/400x400/2563eb/ffffff?text=Aqsa+Zam+Zam+Mirza+Johar+Baig"
+              src="/profile.jpg"
               alt="AQSA ZAM ZAM MIRZA JOHAR BAIG"
               fill
               className="object-cover"
