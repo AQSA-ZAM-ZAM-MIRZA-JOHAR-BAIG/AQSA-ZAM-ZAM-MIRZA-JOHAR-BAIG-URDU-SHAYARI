@@ -3,80 +3,69 @@ import Link from 'next/link'
 import { ExternalLink, Github, Scale, BookOpen, Gavel, FileText, Globe } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Portfolio | AQSA ZAM ZAM MIRZA JOHAR BAIG — Legal Research & Projects',
+  title: 'Portfolio | AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Projects',
   description:
-    'Legal research papers, moot court achievements, and project portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG, Law Student at PDLC Amravati. Explore her work in Constitutional Law, Legal Drafting, and more.',
+    'Explore the software development portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — including AI/ML models, Full-Stack applications, and Cloud-based systems built with MERN, AWS, and Python.',
   alternates: { canonical: 'https://aqsajoharbaig.vercel.app/portfolio' },
 }
 
 const categoryIcons: Record<string, React.ElementType> = {
-  'Legal Research': BookOpen,
-  'Moot Court': Gavel,
-  'Legal Aid': Scale,
-  'Drafting': FileText,
-  'Web Project': Globe,
+  'Full Stack': Globe,
+  'AI / ML': Scale, // AI/ML often uses Scale for balancing models but maybe better with FileText or Globe
+  'Cloud / DevOps': BookOpen,
+  'Machine Learning': FileText,
 }
 
 const projects = [
   {
-    title: 'Fundamental Rights & State Accountability',
-    category: 'Legal Research',
-    status: 'Published',
-    description:
-      'An in-depth research paper analyzing Articles 12–35 of the Indian Constitution, focusing on the horizontal application of Fundamental Rights and landmark Supreme Court judgements including Maneka Gandhi v. Union of India and Vishaka v. State of Rajasthan. Explores the expanding scope of Article 21 (Right to Life).',
-    skills: ['Constitutional Law', 'Case Law Analysis', 'Legal Research', 'SCC Online'],
-    link: '#',
-    github: null,
-  },
-  {
-    title: 'Moot Court — Amravati District Bar Competition',
-    category: 'Moot Court',
-    status: 'Participant',
-    description:
-      'Represented PDLC Amravati in the inter-college Moot Court competition. Argued on behalf of the respondent in a writ petition challenging custodial torture under Article 21. Prepared written submissions, argued constitutional questions, and handled cross-examination.',
-    skills: ['Oral Advocacy', 'Legal Drafting', 'Constitutional Law', 'Petition Writing'],
-    link: '#',
-    github: null,
-  },
-  {
-    title: 'Legal Aid Clinic — Free Community Legal Assistance',
-    category: 'Legal Aid',
-    status: 'Ongoing',
-    description:
-      'Active volunteer at the PDLC Amravati Legal Aid Clinic. Provides free legal consultation to underprivileged clients in matters of domestic violence (PWDVA 2005), consumer disputes, and landlord-tenant disputes. Prepares legal notices and advises on available remedies.',
-    skills: ['Client Counselling', 'Legal Aid', 'PWDVA 2005', 'Consumer Law'],
-    link: '#',
-    github: null,
-  },
-  {
-    title: 'Legal Drafting Portfolio — Contracts & Pleadings',
-    category: 'Drafting',
-    status: 'Portfolio',
-    description:
-      'A curated portfolio of legal drafts prepared as part of academic training and practical exercises: includes a Sale Deed, Rental Agreement, Affidavit of Support, Writ Petition (PIL format), Written Statement in a civil suit, and a Notice under Section 138 Negotiable Instruments Act.',
-    skills: ['Legal Drafting', 'Contract Law', 'Civil Procedure', 'NI Act'],
-    link: '#',
-    github: null,
-  },
-  {
-    title: "Women's Rights in Muslim Personal Law — Research Essay",
-    category: 'Legal Research',
-    status: 'Published',
-    description:
-      "A scholarly essay examining the interface of Muslim Personal Law with constitutional guarantees of equality (Articles 14, 15). Critically analyses the Triple Talaq judgment (Shayara Bano v. UoI), Maintenance rights under Section 125 CrPC, and women's inheritance under traditional Islamic Fiqh versus modern legislative reforms.",
-    skills: ['Family Law', 'Gender Justice', 'Constitutional Law', 'Legal Research'],
-    link: '#',
-    github: null,
-  },
-  {
-    title: 'Personal Portfolio & Legal Blog Website',
-    category: 'Web Project',
+    title: 'Mahalaxmi Tailors — E-commerce Platform',
+    category: 'Full Stack',
     status: 'Live',
     description:
-      "This very website — designed and built to establish a strong online presence for AQSA ZAM ZAM MIRZA JOHAR BAIG as a law student and legal researcher. SEO-optimized using Next.js, targeting Google Page 1 for the name 'AQSA ZAM ZAM MIRZA JOHAR BAIG'. Showcases legal research, blogs, and Urdu Shayari.",
-    skills: ['Next.js', 'SEO', 'Tailwind CSS', 'TypeScript'],
-    link: 'https://aqsajoharbaig.vercel.app',
-    github: 'https://github.com/aqsajoharbaig',
+      'A production-ready e-commerce platform supporting a small tailoring business with 70+ registered users. Features secure authentication (JWT, HttpOnly cookies), role-based access control (RBAC), and integration with Razorpay and Cloudinary. Deployed on high-availability AWS architecture using Route 53, S3, and EC2.',
+    skills: ['MERN', 'AWS', 'JWT', 'Razorpay', 'Cloudinary', 'DevOps'],
+    link: 'https://mahalaxmi-tailors.shop',
+    github: 'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
+  },
+  {
+    title: 'FalcoVita — Healthcare Platform',
+    category: 'Full Stack',
+    status: 'Live',
+    description:
+      'A scalable healthcare platform featuring asynchronous task pipelines using Celery and Redis to reduce request latency. Includes 20+ interactive data visualizations using Chart.js and secured using cryptographic algorithms (Bcrypt, Argon2, HMAC-SHA). Integrates OpenAI and Pinecone for intelligent data processing.',
+    skills: ['Vue.js', 'Flask', 'Celery', 'Redis', 'OpenAI', 'Pinecone', 'Chart.js'],
+    link: 'https://falcovita.vercel.app',
+    github: 'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
+  },
+  {
+    title: 'IPO-Success-Predictor',
+    category: 'AI / ML',
+    status: 'Published',
+    description:
+      'Achieved 80% prediction accuracy using Ensemble Learning (Bagging, Boosting) to predict IPO success. Features an interactive web interface on Hugging Face spaces for real-time assessment. Automated the end-to-end pipeline to reduce manual analysis time and provide consistent insights.',
+    skills: ['NumPy', 'Pandas', 'Ensemble Learning', 'Hugging Face', 'Python'],
+    link: 'https://huggingface.co/spaces/ayushdayal8/IPO-Success-Predictor',
+    github: 'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
+  },
+  {
+    title: 'AWS Cloud-Based Web Applications',
+    category: 'Cloud / DevOps',
+    status: 'Portfolio',
+    description:
+      'Designed and deployed 3+ cloud-based applications on AWS, supporting scalable, highly available, and fault-tolerant architectures. Implemented 15+ AWS services including EC2, S3, IAM, Lambda, RDS, Route 53, CloudFront, and CloudFormation to optimize system performance and reliability.',
+    skills: ['AWS', 'CloudFormation', 'Lambda', 'S3', 'EC2', 'Route 53', 'IAM'],
+    link: '#',
+    github: 'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
+  },
+  {
+    title: 'Responsive Web Application Portfolio',
+    category: 'Full Stack',
+    status: 'Portfolio',
+    description:
+      'Built 5+ responsive web applications using HTML, CSS, JavaScript, and Bootstrap with a focus on cross-browser compatibility. Collaborated with mentors to implement backend integrations, reducing page load time by 30% and significantly improving user experience (EduSkills AICTE program).',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'REST APIs', 'Jinja'],
+    link: '#',
+    github: 'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
   },
 ]
 
@@ -117,10 +106,10 @@ export default function Portfolio() {
           </nav>
           <p className="text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">Portfolio</p>
           <h1 className="text-4xl md:text-5xl font-black mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Legal Portfolio & Projects
+            Software Portfolio & Tech Projects
           </h1>
           <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-            By <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Law Student at PDLC Amravati. Research papers, moot court work, legal aid, and more.
+            By <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at VIIT Pune. AI/ML, Full-Stack development, and Cloud Architecture.
           </p>
         </section>
 
@@ -197,9 +186,9 @@ export default function Portfolio() {
 
           {/* Author note */}
           <p className="text-center text-sm text-slate-400 mt-12">
-            All research and work listed above is by{' '}
+            All code and project work listed above is developed by{' '}
             <strong className="text-slate-600 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>
-            {' '} — Law Student, PDLC Amravati · Last updated: March 2026
+            {' '} — CS Undergraduate, VIIT Pune & IIT Madras · Last updated: March 2026
           </p>
         </div>
       </div>

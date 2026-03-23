@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Urdu Shayari | AQSA ZAM ZAM MIRZA JOHAR BAIG — Classic & Original Poetry',
   description:
-    'Curated Urdu Shayari collection by AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati and Urdu poet. Explore profound ghazals and couplets on love, life, justice, and the human spirit in Urdu script, Devanagari (Hindi), and English translation.',
+    'Curated Urdu Shayari collection by AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer and Urdu poet. Explore profound ghazals and couplets on love, life, and the human spirit in Urdu script, Devanagari (Hindi), and English translation.',
   alternates: { canonical: 'https://aqsajoharbaig.vercel.app/urdu-shayari' },
 }
 
@@ -103,7 +103,7 @@ const categoryColors: Record<string, string> = {
 const faqs = [
   {
     q: 'Who curates the Urdu Shayari on this website?',
-    a: 'All Urdu Shayari on this website is curated by AQSA ZAM ZAM MIRZA JOHAR BAIG — a Law Student at PDLC Amravati and a passionate lover of classical Urdu literature.',
+    a: 'All Urdu Shayari on this website is curated by AQSA ZAM ZAM MIRZA JOHAR BAIG — a Software Developer and AI-ML student who is also a passionate lover of classical Urdu literature.',
   },
   {
     q: 'What types of Urdu poetry are featured here?',
@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     q: 'Does AQSA ZAM ZAM MIRZA JOHAR BAIG write original Urdu poetry?',
-    a: 'Yes. AQSA ZAM ZAM MIRZA JOHAR BAIG is herself a Urdu Shayari poet who finds deep connections between the precision of legal language and the elegance of Urdu verse. Original compositions will be added to this collection.',
+    a: 'Yes. AQSA ZAM ZAM MIRZA JOHAR BAIG is herself a Urdu Shayari poet who finds inspiration in the intersection of technology and literature. Original compositions will be added to this collection.',
   },
 ]
 
@@ -159,7 +159,7 @@ export default function UrduShayari() {
           </h1>
           <p className="text-blue-200 text-lg max-w-2xl mx-auto mb-4">
             A curated treasury of classical Urdu poetry — presented by{' '}
-            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>, Law Student at PDLC Amravati and Urdu Shayari poet.
+            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>, Software Developer and Urdu Shayari poet.
           </p>
           {/* Urdu tagline */}
           <p
@@ -279,7 +279,7 @@ export default function UrduShayari() {
 
           <p className="text-center text-sm text-slate-400 mt-12">
             Curated by <strong className="text-slate-600 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>{' '}
-            — Law Student, PDLC Amravati · Last updated: March 2026
+            — Software Developer, AI/ML Student · Last updated: March 2026
           </p>
         </div>
       </div>

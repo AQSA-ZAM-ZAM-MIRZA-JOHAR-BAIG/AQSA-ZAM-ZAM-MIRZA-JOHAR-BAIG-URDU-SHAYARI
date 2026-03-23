@@ -4,45 +4,58 @@ import Image from 'next/image'
 import { GraduationCap, MapPin, Award, CheckCircle2, Download, Linkedin, Github } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student, PDLC Amravati',
+  title: 'About AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Student',
   description:
-    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati (Prakash Law College), specializing in Legal Research. Based in Amravati, Maharashtra, India.',
+    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — Computer Science student at VIIT Pune and IIT Madras, specializing in AI/ML, Full-Stack Development, and Cloud Computing.',
   alternates: { canonical: 'https://aqsajoharbaig.vercel.app/about' },
 }
 
 const skills = [
-  { name: 'Legal Research', level: 92, desc: 'Statutory interpretation, case law analysis, legal databases (SCC, Manupatra)' },
-  { name: 'Legal Drafting', level: 88, desc: 'Petitions, affidavits, contracts, plaints, written statements' },
-  { name: 'Constitutional Law', level: 85, desc: 'Fundamental Rights (Part III), Directive Principles, judiciary structure' },
-  { name: 'Communication', level: 90, desc: 'Oral advocacy, moot court arguments, client counselling' },
-  { name: 'Technical Writing', level: 87, desc: 'Legal blogs, research papers, legal literacy articles' },
-  { name: 'Urdu Literature', level: 95, desc: 'Classical Shayari, Ghazal tradition, Urdu prose and poetry' },
+  { name: 'Java & Python', level: 92, desc: 'Core OOP, Collections, Multithreading, Flask, NumPy, Pandas' },
+  { name: 'MERN & Vue.js', level: 88, desc: 'React, Node, Express, MongoDB, Vue, State Management' },
+  { name: 'AI & Machine Learning', level: 85, desc: 'PyTorch, TensorFlow, Scikit-learn, Ensemble Learning' },
+  { name: 'Cloud & DevOps (AWS)', level: 82, desc: 'EC2, S3, RDS, Lambda, IAM, CloudFront, CI/CD' },
+  { name: 'Databases', level: 90, desc: 'MySQL, PostgreSQL, MongoDB, SQLite, Redis' },
+  { name: 'Core CS Concepts', level: 95, desc: 'Data Structures, Algorithms, System Design, DBMS, OS' },
 ]
 
 const education = [
   {
-    degree: 'LL.B. — Bachelor of Laws',
-    institution: 'Prakash Law College (PDLC), Amravati',
-    period: 'Current',
-    specialization: 'Specialization: Legal Research',
-    location: 'Amravati, Maharashtra, India',
+    degree: 'B.Tech in Computer Science and Engineering (AI & ML)',
+    institution: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
+    period: 'Aug 2023 – Jun 2027',
+    specialization: 'CGPA: 8.77',
+    location: 'Pune, Maharashtra, India',
     highlights: [
-      'Specialization in Legal Research and Legal Drafting',
-      'Active participant in Moot Court competitions',
-      'Member of Legal Aid Clinic — providing free legal assistance',
-      'Contributor to college law journal',
+      'Specializing in Artificial Intelligence and Machine Learning',
+      'Strong foundations in Data Structures, Algorithms, and Object-Oriented Programming',
+      'Implementing secure authentication mechanisms and RESTful APIs',
+      'Proven ability to deploy production-ready applications following software development best practices',
     ],
     isPrimary: true,
+  },
+  {
+    degree: 'Bachelor of Science (BS) in Data Science',
+    institution: 'Indian Institute of Technology (IITM), IIT Madras',
+    period: 'May 2023 – Jun 2027',
+    specialization: 'CGPA: 7.44',
+    location: 'Chennai (Online/Remote)',
+    highlights: [
+      'In-depth study of Data Analysis, Statistics, and Machine Learning models',
+      'Hands-on experience with pre-processing, model training, and performance evaluation',
+      'Developing data-driven solutions for real-world problems using Python and SQL',
+    ],
+    isPrimary: false,
   },
 ]
 
 const areasOfInterest = [
-  { icon: '⚖️', title: 'Constitutional Law', desc: 'Fundamental Rights, Directive Principles, Constitutional remedies and writ jurisdiction.' },
-  { icon: '👩‍⚖️', title: 'Family & Personal Law', desc: "Women's rights in Muslim Personal Law, Hindu Succession Act, and gender-just jurisprudence." },
-  { icon: '📜', title: 'Evidence Law', desc: 'Indian Evidence Act, admissibility of electronic evidence, burden of proof doctrines.' },
-  { icon: '📋', title: 'Civil Procedure', desc: 'Code of Civil Procedure, trial procedure, plaint and written statement drafting.' },
-  { icon: '✍️', title: 'Legal Writing', desc: 'Academic legal research, case commenting, and legal literacy journalism.' },
-  { icon: '🌹', title: 'Urdu Literature', desc: 'Classical Urdu poetry, Ghazal and Nazm tradition, Ghalib, Iqbal, Faiz, and Jaun Elia.' },
+  { icon: '🤖', title: 'Artificial Intelligence', desc: 'Neural networks, Natural Language Processing, and Computer Vision using PyTorch and TensorFlow.' },
+  { icon: '🌐', title: 'Full Stack Development', desc: 'Building responsive MERN/Vue applications with focus on performance and security.' },
+  { icon: '☁️', title: 'Cloud Computing', desc: 'Architecting scalable systems on AWS using EC2, S3, and Serverless technologies.' },
+  { icon: '📊', title: 'Data Science', desc: 'Exploratory Data Analysis (EDA), predictive modeling, and data visualization using Python.' },
+  { icon: '⚙️', title: 'System Design', desc: 'Designing distributed systems, microservices, and high-availability architectures.' },
+  { icon: '🚀', title: 'DevOps', desc: 'Implementing CI/CD pipelines, containerization, and monitoring for production deployments.' },
 ]
 
 export default function About() {
@@ -76,10 +89,10 @@ export default function About() {
           <h1 className="text-4xl md:text-5xl font-black mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
             AQSA ZAM ZAM MIRZA JOHAR BAIG
           </h1>
-          <p className="text-blue-200 text-lg mb-3">Law Student · Legal Researcher · Urdu Poet</p>
+          <p className="text-blue-200 text-lg mb-3">Software Developer · AI/ML Enthusiast · Cloud Practitioner</p>
           <div className="flex items-center justify-center gap-1.5 text-slate-400 text-sm">
             <MapPin className="w-4 h-4 text-amber-400" aria-hidden="true" />
-            <span>Amravati, Maharashtra, India</span>
+            <span>Pune, Maharashtra, India</span>
           </div>
         </section>
 
@@ -92,19 +105,18 @@ export default function About() {
                 <div className="relative w-48 h-48 rounded-2xl overflow-hidden border-4 border-amber-500/40 shadow-xl mb-4">
                   <Image
                     src="/profile.png"
-                    alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati"
+                    alt="AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer"
                     fill
                     className="object-cover"
                     sizes="192px"
                   />
                 </div>
                 <p className="text-center text-sm font-bold text-slate-800 dark:text-slate-200">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
-                <p className="text-center text-xs text-slate-500 dark:text-slate-400 mt-1">Also known as: Aqsa Mirza · AqsA Zam Zam · Aqsa Johar Baig</p>
-                <div className="mt-4 flex gap-3">
-                  <a href="https://linkedin.com/in/aqsajoharbaig" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 hover:bg-blue-200 transition-colors" aria-label="LinkedIn Profile">
+                <div className="mt-4 flex flex-wrap justify-center gap-2">
+                  <a href="https://linkedin.com/in/aqsamirza08" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 hover:bg-blue-200 transition-colors" aria-label="LinkedIn Profile">
                     <Linkedin className="w-4 h-4" />
                   </a>
-                  <a href="https://github.com/aqsajoharbaig" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 transition-colors" aria-label="GitHub Profile">
+                  <a href="https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 transition-colors" aria-label="GitHub Profile">
                     <Github className="w-4 h-4" />
                   </a>
                 </div>
@@ -112,20 +124,20 @@ export default function About() {
 
               <div className="md:col-span-2">
                 <h2 id="bio-heading" className="text-3xl font-black text-slate-900 dark:text-white mb-5" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  Background & Education
+                  Professional Summary
                 </h2>
-                <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed">
+                <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed text-justify">
                   <p>
-                    <strong className="text-slate-800 dark:text-slate-200">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — commonly referred to as <em>Aqsa Mirza</em>, <em>AqsA Zam Zam</em>, or <em>Aqsa Johar Baig</em> — is a dedicated Law Student at <strong className="text-slate-800 dark:text-slate-200">Prakash Law College (PDLC), Amravati</strong>, Maharashtra. Her academic journey is defined by a deep commitment to the pursuit of justice, legal scholarship, and the empowerment of communities through legal literacy.
+                    <strong className="text-slate-800 dark:text-slate-200">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning with strong foundations in Data Structures, Algorithms, Object-Oriented Programming, and System Design.
                   </p>
                   <p>
-                    Her specialization in <strong className="text-slate-800 dark:text-slate-200">Legal Research</strong> has equipped her with advanced skills in statutory interpretation, case law analysis, legal database research (SCC Online, Manupatra, Indian Kanoon), and academic legal writing. She actively participates in Moot Court competitions, legal aid clinics, and institutional legal debates.
+                    With experience in building scalable full-stack applications and cloud-based distributed systems using <strong className="text-slate-800 dark:text-slate-200">Java, Python, JavaScript, and AWS</strong>, she has a proven ability to design RESTful APIs, implement secure authentication mechanisms, and deploy production-ready applications following software development best practices.
                   </p>
                   <p>
-                    AQSA ZAM ZAM MIRZA JOHAR BAIG is based in <strong className="text-slate-800 dark:text-slate-200">Amravati, Maharashtra, India</strong> — a city steeped in history and legal tradition. Her proximity to local courts and legal institutions has given her practical exposure to civil and criminal proceedings from an early stage of her legal education.
+                    She is currently pursuing a dual degree: <em>B.Tech in CSE (AI & ML)</em> from <strong>VIIT Pune</strong> and a <em>BS in Data Science</em> from <strong>IIT Madras</strong>. This rigorous academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
                   </p>
                   <p>
-                    Beyond the law library, she is a passionate Urdu Shayari poet and curator, believing deeply that the same precision which defines legal drafting also illuminates the best Urdu verse. Her literary pursuits keep her grounded in language, empathy, and the human dimension of justice.
+                    Beyond core development, she actively explores emerging technologies, having completed industry programs by <strong className="text-slate-800 dark:text-slate-200">Google (AI & ML)</strong>, <strong className="text-slate-800 dark:text-slate-200">AWS (Cloud Practices)</strong>, and <strong className="text-slate-800 dark:text-slate-200">EduSkills (Web Development)</strong>. Her goal is to leverage AI to solve complex real-world problems through robust and scalable software solutions.
                   </p>
                 </div>
               </div>
@@ -178,7 +190,7 @@ export default function About() {
           {/* Skills Table */}
           <section aria-labelledby="skills-heading">
             <h2 id="skills-heading" className="text-3xl font-black text-slate-900 dark:text-white mb-8" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Legal & Professional Skills
+              Technical Expertise
             </h2>
             <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
               <table className="w-full text-sm" role="table" aria-label="Skills of AQSA ZAM ZAM MIRZA JOHAR BAIG">
@@ -249,7 +261,7 @@ export default function About() {
               Connect with AQSA ZAM ZAM MIRZA JOHAR BAIG
             </h2>
             <p className="text-blue-200 mb-8 max-w-xl mx-auto">
-              Looking to collaborate on legal research, discuss constitutional law, or share a love of Urdu Shayari? Reach out and let's connect.
+              Looking to collaborate on a software project, explore AI/ML solutions, or discuss cloud architecture? Reach out and let's build something amazing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

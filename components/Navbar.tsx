@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
-import { Menu, X, Moon, Sun, Scale } from 'lucide-react'
+import { Menu, X, Moon, Sun, Code } from 'lucide-react'
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -58,7 +58,7 @@ export default function Navbar() {
             className="flex items-center gap-2 font-bold text-base md:text-lg tracking-tight hover:opacity-80 transition-opacity"
             aria-label="AQSA ZAM ZAM MIRZA JOHAR BAIG — Home"
           >
-            <Scale className="w-5 h-5 text-amber-600 flex-shrink-0" aria-hidden="true" />
+            <Code className="w-5 h-5 text-amber-600 flex-shrink-0" aria-hidden="true" />
             <span className="hidden sm:inline text-slate-900 dark:text-white">
               AQSA <span className="text-amber-600">ZAM ZAM</span> MIRZA JOHAR BAIG
             </span>

@@ -6,24 +6,23 @@ import Footer from '../components/Footer'
 export const metadata: Metadata = {
   metadataBase: new URL('https://aqsajoharbaig.vercel.app'),
   title: {
-    default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student & Legal Researcher',
+    default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     template: '%s | AQSA ZAM ZAM MIRZA JOHAR BAIG',
   },
   description:
-    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati, Legal Researcher, Technical Writer, and Urdu Shayari Poet. Explore legal research, blogs, and Urdu poetry.',
+    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML, Full-Stack Development, and Cloud Systems. Computer Science student at VIIT Pune and IIT Madras.',
   keywords: [
     'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     'Aqsa Mirza',
     'AqsA Zam Zam Mirza',
     'Aqsa Zam Zam Mirza Johar Baig',
     'AqsA Zam Zam Johar Baig',
-    'AqsA Zam Zam',
-    'AqsA Johar Baig',
-    'Law Student Amravati',
-    'PDLC Amravati',
-    'Legal Researcher',
-    'Urdu Shayari Poet',
-    'Prakash Law College Amravati',
+    'Software Developer Pune',
+    'VIIT Pune',
+    'IIT Madras Data Science',
+    'Full Stack Developer',
+    'AI-ML Specialist',
+    'AWS Cloud Engineer',
   ],
   authors: [{ name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG', url: 'https://aqsajoharbaig.vercel.app' }],
   creator: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
@@ -34,9 +33,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
   },
   openGraph: {
-    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student & Legal Researcher',
+    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     description:
-      'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati, Legal Researcher, and Urdu Shayari Poet.',
+      'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack Development.',
     url: 'https://aqsajoharbaig.vercel.app',
     siteName: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
     images: [
@@ -44,7 +43,7 @@ export const metadata: Metadata = {
         url: '/profile.png',
         width: 1200,
         height: 630,
-        alt: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati',
+        alt: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer',
       },
     ],
     locale: 'en_IN',
@@ -52,9 +51,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student & Legal Researcher',
+    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     description:
-      'Discover legal research, blogs, and Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG, Law Student at PDLC Amravati.',
+      'Explore projects in AI/ML and Full-Stack development by AQSA ZAM ZAM MIRZA JOHAR BAIG.',
     images: ['/profile.png'],
   },
   alternates: {
@@ -68,40 +67,45 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'Person',
     name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     alternateName: ['Aqsa Mirza', 'AqsA Zam Zam Mirza', 'Aqsa Johar Baig', 'AqsA Zam Zam'],
-    jobTitle: 'Law Student & Legal Researcher',
+    jobTitle: 'Software Developer & AI-ML Student',
     description:
-      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a Law Student at PDLC Amravati (Prakash Law College), specializing in Legal Research. She is also a Technical Writer and Urdu Shayari Poet based in Amravati, Maharashtra, India.',
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIT Pune and Data Science at IIT Madras. She is a Full-Stack Developer and AWS Cloud practitioner.',
     knowsAbout: [
-      'Legal Research',
-      'Legal Drafting',
-      'Constitutional Law',
-      'Technical Writing',
-      'Urdu Shayari',
-      'Urdu Literature',
-      'Indian Penal Code',
-      'Civil Procedure',
+      'Artificial Intelligence',
+      'Machine Learning',
+      'Full-Stack Development',
+      'Cloud Computing (AWS)',
+      'Data Structures & Algorithms',
+      'System Design',
+      'Java',
+      'Python',
+      'React.js',
     ],
-    alumniOf: {
-      '@type': 'EducationalOrganization',
-      name: 'Prakash Law College (PDLC), Amravati',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Amravati',
-        addressRegion: 'Maharashtra',
-        addressCountry: 'IN',
+    alumniOf: [
+      {
+        '@type': 'EducationalOrganization',
+        name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
       },
-    },
+      {
+        '@type': 'EducationalOrganization',
+        name: 'Indian Institute of Technology (IITM), IIT Madras',
+      },
+    ],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Amravati',
+      addressLocality: 'Pune',
       addressRegion: 'Maharashtra',
       addressCountry: 'IN',
     },
     nationality: 'Indian',
     url: 'https://aqsajoharbaig.vercel.app',
     sameAs: [
-      'https://linkedin.com/in/aqsajoharbaig',
-      'https://github.com/aqsajoharbaig',
+      'https://www.linkedin.com/in/aqsamirza08',
+      'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
+      'https://www.kaggle.com/aqsamirza08',
+      'https://aqsamirza08.medium.com/',
+      'https://stackoverflow.com/users/32468898/aqsa-zam-zam-mirza-johar-baig',
+      'https://www.youtube.com/@aqsamirza08',
     ],
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -115,15 +119,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
     url: 'https://aqsajoharbaig.vercel.app',
     description:
-      'Official personal website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student, Legal Researcher, and Urdu Poet.',
+      'Official personal website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML Student, and Tech Blogger.',
     author: {
       '@type': 'Person',
       name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     },
-    inLanguage: ['en', 'ur', 'hi'],
+    inLanguage: ['en'],
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://aqsajoharbaig.vercel.app/urdu-shayari',
+      target: 'https://aqsajoharbaig.vercel.app/blogs',
       'query-input': 'required name=search_term_string',
     },
   }

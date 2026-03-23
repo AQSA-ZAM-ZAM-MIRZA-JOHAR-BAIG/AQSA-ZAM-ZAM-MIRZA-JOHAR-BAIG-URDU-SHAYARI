@@ -3,76 +3,76 @@ import Link from 'next/link'
 import { Calendar, Clock, User, BookOpen, Tag } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Legal Blogs | AQSA ZAM ZAM MIRZA JOHAR BAIG — Constitutional Law & Research',
+  title: 'Tech Blogs | AQSA ZAM ZAM MIRZA JOHAR BAIG — AI, ML & Full-Stack',
   description:
-    'Legal blogs and articles by AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati. Read in-depth pieces on Constitutional Law, Evidence Act, Women\'s Rights, and Legal Research methodology.',
+    'Technical blogs and articles by AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Web Technologies. Read about MERN stack, AWS Cloud, and Neural Networks.',
   alternates: { canonical: 'https://aqsajoharbaig.vercel.app/blogs' },
 }
 
 const blogs = [
   {
-    title: 'Fundamental Rights in India: A Deep Dive into Part III of the Constitution',
+    title: 'Building Scalable E-commerce with MERN and AWS',
     excerpt:
-      'An analytical exploration of Articles 12 to 35 of the Indian Constitution — the Fundamental Rights chapter. This article traces the evolution of rights jurisprudence from A.K. Gopalan to the expansive interpretation in Maneka Gandhi v. Union of India, and examines what "life and personal liberty" truly means in 2026.',
-    category: 'Constitutional Law',
+      'A comprehensive guide to architecting a production-ready e-commerce platform. This article covers secure authentication using JWT, role-based access control (RBAC), and deploying on AWS using EC2, S3, and Route 53 for high availability.',
+    category: 'Full Stack',
     date: 'March 2026',
-    readTime: '12 min read',
+    readTime: '10 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    tags: ['Article 21', 'Fundamental Rights', 'Supreme Court', 'Constitutional Law'],
+    tags: ['MERN', 'AWS', 'E-commerce', 'Full Stack'],
     color: 'blue',
   },
   {
-    title: 'How to Write a Legal Research Paper: A Step-by-Step Guide for Law Students',
+    title: 'Ensemble Learning: Achieving 80% Accuracy in IPO Success Prediction',
     excerpt:
-      'From identifying a legal question to constructing arguments with case law, statutes, and secondary sources — this guide distills the methodology AQSA ZAM ZAM MIRZA JOHAR BAIG uses for her Legal Research specialization at PDLC Amravati. Covers IRAC method, citation formats, and avoiding plagiarism.',
-    category: 'Legal Research',
+      'Detailed analysis of using Bagging and Boosting techniques to predict IPO market performance. Deep dive into data pre-processing, feature engineering, and evaluating model performance using Precision, Recall, and F1-score.',
+    category: 'AI / ML',
     date: 'February 2026',
-    readTime: '10 min read',
+    readTime: '12 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    tags: ['Legal Research', 'PDLC Amravati', 'IRAC Method', 'Law Students'],
+    tags: ['Machine Learning', 'Python', 'Ensemble Learning', 'Data Science'],
     color: 'amber',
   },
   {
-    title: 'Understanding the Indian Evidence Act, 1872: Key Provisions Every Law Student Must Know',
+    title: 'Asynchronous Task Processing with Celery and Redis in Flask',
     excerpt:
-      'A structured breakdown of the Indian Evidence Act 1872 — covering relevancy of facts (Section 6–55), oral and documentary evidence (Sections 59–90), and the evolving law on electronic records (Section 65B). Includes analysis of landmark decisions of the Supreme Court and High Courts on admissibility.',
-    category: 'Evidence Law',
+      'Learn how to reduce API request latency by offloading heavy computations to background tasks. This guide covers setting up Celery workers, using Redis as a message broker, and implementing real-time progress updates.',
+    category: 'Web Tech',
     date: 'January 2026',
-    readTime: '15 min read',
+    readTime: '8 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    tags: ['Evidence Act', 'Section 65B', 'Electronic Evidence', 'Indian Law'],
+    tags: ['Flask', 'Celery', 'Redis', 'Python'],
     color: 'green',
   },
   {
-    title: "Women's Rights in Muslim Personal Law: After Triple Talaq and Beyond",
+    title: 'Cloud-Native Architectures: Implementing 15+ AWS Services',
     excerpt:
-      'A critical assessment of how Muslim Personal Law intersects with constitutional guarantees after the landmark Shayara Bano v. Union of India (2017) verdict abolishing instant Triple Talaq. Explores Section 125 CrPC maintenance, Mehr rights, divorce by mutual consent (Khul), and what legislative reform is still needed.',
-    category: 'Family Law',
+      'A practitioner\'s journey of deploying fault-tolerant architectures on AWS. Covering CloudFormation for Infrastructure as Code (IaC), Lambda for serverless, and RDS for managed database solutions.',
+    category: 'Cloud',
     date: 'December 2025',
-    readTime: '14 min read',
+    readTime: '15 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    tags: ["Women's Rights", 'Muslim Personal Law', 'Triple Talaq', 'Gender Justice'],
+    tags: ['AWS', 'Cloud', 'DevOps', 'Infrastructure'],
     color: 'rose',
   },
   {
-    title: 'The Intersection of Language and Law: Urdu in Indian Courts and Legal Discourse',
+    title: 'Interactive Data Visualization with Chart.js and D3.js',
     excerpt:
-      "A unique socio-legal essay exploring how Urdu — once the language of the Mughal courts and later of legal pleadings in undivided India — has shaped Indian legal terminology. From 'fatwas' to 'istighasa', this article traces the rich Urdu-legal lexicon and its contemporary relevance in courts of Uttar Pradesh, Maharashtra, and Telangana.",
-    category: 'Socio-Legal',
+      'Exploring the intersection of data and design. How to build 20+ interactive charts and dashboards that provide meaningful insights from complex healthcare datasets using modern JavaScript libraries.',
+    category: 'Frontend',
     date: 'November 2025',
     readTime: '9 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    tags: ['Urdu', 'Legal Language', 'Socio-Legal', 'Indian Courts'],
+    tags: ['JavaScript', 'Chart.js', 'Data Visualization', 'Vue.js'],
     color: 'purple',
   },
 ]
 
 const categoryColors: Record<string, string> = {
-  'Constitutional Law': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
-  'Legal Research': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
-  'Evidence Law': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
-  'Family Law': 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400',
-  'Socio-Legal': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
+  'Full Stack': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
+  'AI / ML': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  'Web Tech': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  'Cloud': 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400',
+  'Frontend': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 }
 
 export default function Blogs() {
@@ -88,7 +88,7 @@ export default function Blogs() {
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Legal Blogs by AQSA ZAM ZAM MIRZA JOHAR BAIG',
+    name: 'Tech Blogs by AQSA ZAM ZAM MIRZA JOHAR BAIG',
     itemListElement: blogs.map((b, i) => ({
       '@type': 'ListItem',
       position: i + 1,
@@ -121,13 +121,13 @@ export default function Blogs() {
               <li className="text-amber-400" aria-current="page">Blogs</li>
             </ol>
           </nav>
-          <p className="text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">Legal Writing</p>
+          <p className="text-xs uppercase tracking-widest text-amber-400 font-semibold mb-3">Tech Writing</p>
           <h1 className="text-4xl md:text-5xl font-black mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Legal Blogs & Articles
+            Software Blogs & Articles
           </h1>
           <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-            In-depth legal analysis and research articles by{' '}
-            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Law Student at PDLC Amravati, specializing in Legal Research.
+            In-depth technical analysis and research articles by{' '}
+            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at VIIT Pune & IIT Madras.
           </p>
         </section>
 
@@ -178,7 +178,7 @@ export default function Blogs() {
                   </span>
                   <span className="flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
-                    PDLC Amravati
+                    VIIT Pune
                   </span>
                 </div>
 
@@ -200,7 +200,7 @@ export default function Blogs() {
           <p className="text-center text-sm text-slate-400 mt-12">
             All articles written by{' '}
             <strong className="text-slate-600 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>{' '}
-            — Law Student, PDLC Amravati · Last updated: March 2026
+            — CS Undergraduate, VIIT Pune & IIT Madras · Last updated: March 2026
           </p>
         </div>
       </div>

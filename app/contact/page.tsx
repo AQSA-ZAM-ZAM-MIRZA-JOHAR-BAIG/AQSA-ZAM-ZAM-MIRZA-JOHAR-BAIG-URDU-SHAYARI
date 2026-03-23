@@ -35,7 +35,7 @@ export default function Contact() {
           Contact AQSA ZAM ZAM MIRZA JOHAR BAIG
         </h1>
         <p className="text-blue-200 text-lg max-w-xl mx-auto">
-          Interested in legal research collaboration, law discussions, or Urdu Shayari? I would love to hear from you.
+          Interested in software development collaboration, AI/ML discussions, or cloud solutions? I would love to hear from you.
         </p>
       </section>
 
@@ -55,8 +55,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white text-sm">Location</p>
-                    <p className="text-slate-500 dark:text-slate-400 text-sm">Amravati, Maharashtra, India</p>
-                    <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">PDLC Amravati (Prakash Law College)</p>
+                    <p className="text-slate-500 dark:text-slate-400 text-sm">Pune, Maharashtra, India</p>
+                    <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Vishwakarma Institute of Information Technology (VIIT)</p>
                   </div>
                 </div>
 
@@ -67,10 +67,10 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white text-sm">Email</p>
                     <a
-                      href="mailto:aqsajoharbaig@gmail.com"
+                      href="mailto:aqsamirz6306@gmail.com"
                       className="text-slate-500 dark:text-slate-400 text-sm hover:text-amber-600 transition-colors"
                     >
-                      aqsajoharbaig@gmail.com
+                      aqsamirz6306@gmail.com
                     </a>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default function Contact() {
               </h3>
               <div className="space-y-3">
                 <a
-                  href="https://linkedin.com/in/aqsajoharbaig"
+                  href="https://www.linkedin.com/in/aqsamirza08"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all group"
@@ -93,11 +93,11 @@ export default function Contact() {
                   <Linkedin className="w-5 h-5 text-blue-600 group-hover:text-blue-700 transition-colors" aria-hidden="true" />
                   <div>
                     <p className="text-sm font-semibold text-slate-800 dark:text-slate-200">LinkedIn</p>
-                    <p className="text-xs text-slate-400">linkedin.com/in/aqsajoharbaig</p>
+                    <p className="text-xs text-slate-400">linkedin.com/in/aqsamirza08</p>
                   </div>
                 </a>
                 <a
-                  href="https://github.com/aqsajoharbaig"
+                  href="https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all group"
@@ -106,7 +106,7 @@ export default function Contact() {
                   <Github className="w-5 h-5 text-slate-700 dark:text-slate-300 group-hover:text-slate-900 dark:group-hover:text-white transition-colors" aria-hidden="true" />
                   <div>
                     <p className="text-sm font-semibold text-slate-800 dark:text-slate-200">GitHub</p>
-                    <p className="text-xs text-slate-400">github.com/aqsajoharbaig</p>
+                    <p className="text-xs text-slate-400">github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG</p>
                   </div>
                 </a>
               </div>
@@ -115,7 +115,7 @@ export default function Contact() {
             <div className="bg-gradient-to-br from-blue-50 to-amber-50 dark:from-slate-800 dark:to-slate-700 rounded-2xl p-5 border border-blue-100 dark:border-slate-600">
               <p className="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-2">About</p>
               <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
-                <strong className="text-slate-700 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is a Law Student at PDLC Amravati specializing in Legal Research. She welcomes queries about law, research collaboration, and Urdu poetry.
+                <strong className="text-slate-700 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning. She welcomes queries about software development, AI research, and cloud architecture.
               </p>
             </div>
           </div>
@@ -168,11 +168,11 @@ export default function Contact() {
                     name="subject"
                     className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition text-sm"
                   >
-                    <option value="Legal Research Collaboration">Legal Research Collaboration</option>
-                    <option value="Constitutional Law Discussion">Constitutional Law Discussion</option>
-                    <option value="Urdu Shayari">Urdu Shayari</option>
+                    <option value="Software Collaboration">Software Collaboration</option>
+                    <option value="AI / ML Research">AI / ML Research</option>
+                    <option value="Cloud Architecture">Cloud Architecture</option>
+                    <option value="Full Stack Development">Full Stack Development</option>
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="Other">Other</option>
                   </select>
                 </div>
 
