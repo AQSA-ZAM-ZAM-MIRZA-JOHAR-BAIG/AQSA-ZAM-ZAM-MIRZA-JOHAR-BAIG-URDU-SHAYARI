@@ -1,7 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /_next/
-
-Host: https://aqsajoharbaig.vercel.app
-Sitemap: https://aqsajoharbaig.vercel.app/sitemap.xml

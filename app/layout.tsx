@@ -67,28 +67,42 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'Person',
     name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     alternateName: ['Aqsa Mirza', 'AqsA Zam Zam Mirza', 'Aqsa Johar Baig', 'AqsA Zam Zam'],
-    jobTitle: 'Software Developer & AI-ML Student',
+    jobTitle: 'Software Developer, AI-ML Enthusiast & Data Scientist',
     description:
-      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIT Pune and Data Science at IIT Madras. She is a Full-Stack Developer and AWS Cloud practitioner.',
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a highly ambitious Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIT Pune and Data Science at IIT Madras. Professional experience in building scalable full-stack applications and cloud architectures.',
     knowsAbout: [
-      'Artificial Intelligence',
-      'Machine Learning',
-      'Full-Stack Development',
+      'Artificial Intelligence (AI)',
+      'Machine Learning (ML)',
+      'Full-Stack Development (MERN)',
       'Cloud Computing (AWS)',
-      'Data Structures & Algorithms',
+      'Data Structures & Algorithms (DSA)',
       'System Design',
       'Java',
       'Python',
       'React.js',
+      'DevOps',
+      'Scalable Systems',
     ],
     alumniOf: [
+      {
+        '@type': 'EducationalOrganization',
+        name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
+        url: 'https://viit.ac.in',
+      },
+      {
+        '@type': 'EducationalOrganization',
+        name: 'Indian Institute of Technology Madras (IITM), IIT Madras',
+        url: 'https://iitm.ac.in',
+      },
+    ],
+    memberOf: [
       {
         '@type': 'EducationalOrganization',
         name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
       },
       {
         '@type': 'EducationalOrganization',
-        name: 'Indian Institute of Technology (IITM), IIT Madras',
+        name: 'IIT Madras Data Science Community',
       },
     ],
     address: {
@@ -142,7 +156,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
         <meta name="geo.region" content="IN-MH" />
-        <meta name="geo.placename" content="Amravati, Maharashtra, India" />
+        <meta name="geo.placename" content="Pune, Maharashtra, India" />
         <meta name="language" content="English" />
         <script
           type="application/ld+json"

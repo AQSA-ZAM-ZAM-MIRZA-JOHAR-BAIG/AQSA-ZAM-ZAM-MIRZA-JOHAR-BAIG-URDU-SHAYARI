@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/sitemap.xml

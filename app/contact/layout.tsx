@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact AQSA ZAM ZAM MIRZA JOHAR BAIG | Law Student, PDLC Amravati',
+  title: 'Contact AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer',
   description:
-    'Contact AQSA ZAM ZAM MIRZA JOHAR BAIG — Law Student at PDLC Amravati, Legal Researcher, and Urdu Poet. Reach out for legal research collaboration, constitutional law discussions, or Urdu Shayari.',
+    'Contact AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack development. Reach out for technical collaboration, software projects, or AI/ML discussions.',
   alternates: { canonical: 'https://aqsajoharbaig.vercel.app/contact' },
 }
 

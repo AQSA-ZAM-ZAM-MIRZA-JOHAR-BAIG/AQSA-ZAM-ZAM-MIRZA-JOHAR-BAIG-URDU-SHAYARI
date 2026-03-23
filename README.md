@@ -1,17 +1,39 @@
-# React + Vite
+# AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer Portfolio
 
+Official personal website and portfolio of **AQSA ZAM ZAM MIRZA JOHAR BAIG**, a Software Developer specializing in **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and **Full-Stack Development**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Technical Stack
 
-Currently, two official plugins are available:
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📈 SEO & Performance
 
-## React Compiler
+- **Highly Optimized SEO**: Structured data (JSON-LD) for Person and WebSite entities to achieve #1 Google ranking for the name.
+- **Responsive Design**: Mobile-first, dark-mode ready, and accessible components.
+- **Dynamic Metadata**: Optimized for social sharing (OpenGraph, Twitter Cards).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+- `app/`: Next.js App Router pages and layouts.
+- `components/`: Reusable React components (Navbar, Footer, etc.).
+- `public/`: Static assets (Profile images, favicon).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+Built with ❤️ by **AQSA ZAM ZAM MIRZA JOHAR BAIG**
