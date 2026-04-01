@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Urdu Shayari | AQSA ZAM ZAM MIRZA JOHAR BAIG — Classic & Original Poetry',
   description:
     'Curated Urdu Shayari collection by AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer and Urdu poet. Explore profound ghazals and couplets on love, life, and the human spirit in Urdu script, Devanagari (Hindi), and English translation.',
-  alternates: { canonical: 'https://aqsajoharbaig.vercel.app/urdu-shayari' },
+  alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/urdu-shayari' },
 }
 
 const shayariList = [
@@ -120,8 +120,8 @@ export default function UrduShayari() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsajoharbaig.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Urdu Shayari', item: 'https://aqsajoharbaig.vercel.app/urdu-shayari' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'Urdu Shayari', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/urdu-shayari' },
     ],
   }
 

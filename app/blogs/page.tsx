@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Tech Blogs | AQSA ZAM ZAM MIRZA JOHAR BAIG — AI, ML & Full-Stack',
   description:
     'Technical blogs and articles by AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Web Technologies. Read about MERN stack, AWS Cloud, and Neural Networks.',
-  alternates: { canonical: 'https://aqsajoharbaig.vercel.app/blogs' },
+  alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs' },
 }
 
 const blogs = [
@@ -80,8 +80,8 @@ export default function Blogs() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsajoharbaig.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://aqsajoharbaig.vercel.app/blogs' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs' },
     ],
   }
 

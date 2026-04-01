@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aqsajoharbaig.vercel.app'),
+  metadataBase: new URL('https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app'),
   title: {
     default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     template: '%s | AQSA ZAM ZAM MIRZA JOHAR BAIG',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'AI-ML Specialist',
     'AWS Cloud Engineer',
   ],
-  authors: [{ name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG', url: 'https://aqsajoharbaig.vercel.app' }],
+  authors: [{ name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG', url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' }],
   creator: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
   publisher: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
   robots: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     description:
       'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack Development.',
-    url: 'https://aqsajoharbaig.vercel.app',
+    url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     siteName: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     images: ['/profile.png'],
   },
   alternates: {
-    canonical: 'https://aqsajoharbaig.vercel.app',
+    canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
   },
 }
 
@@ -112,7 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       addressCountry: 'IN',
     },
     nationality: 'Indian',
-    url: 'https://aqsajoharbaig.vercel.app',
+    url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     sameAs: [
       'https://www.linkedin.com/in/aqsamirza08',
       'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
@@ -123,7 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://aqsajoharbaig.vercel.app',
+      '@id': 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     },
   }
 
@@ -131,7 +131,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
-    url: 'https://aqsajoharbaig.vercel.app',
+    url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     description:
       'Official personal website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML Student, and Tech Blogger.',
     author: {
@@ -141,7 +141,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     inLanguage: ['en'],
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://aqsajoharbaig.vercel.app/blogs',
+      target: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs',
       'query-input': 'required name=search_term_string',
     },
   }

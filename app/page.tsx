@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
   description:
     'Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack development. Computer Science student at VIIT Pune and IIT Madras.',
-  alternates: { canonical: 'https://aqsajoharbaig.vercel.app' },
+  alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
 }
 
 const stats = [

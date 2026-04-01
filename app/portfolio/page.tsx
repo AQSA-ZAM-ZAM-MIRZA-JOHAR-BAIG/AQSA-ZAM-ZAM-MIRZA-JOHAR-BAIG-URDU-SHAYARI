@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Portfolio | AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Projects',
   description:
     'Explore the software development portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — including AI/ML models, Full-Stack applications, and Cloud-based systems built with MERN, AWS, and Python.',
-  alternates: { canonical: 'https://aqsajoharbaig.vercel.app/portfolio' },
+  alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/portfolio' },
 }
 
 const categoryIcons: Record<string, React.ElementType> = {
@@ -82,8 +82,8 @@ export default function Portfolio() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsajoharbaig.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Portfolio', item: 'https://aqsajoharbaig.vercel.app/portfolio' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'Portfolio', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/portfolio' },
     ],
   }
 

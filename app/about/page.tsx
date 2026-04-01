@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'About AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Student',
   description:
     'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — Computer Science student at VIIT Pune and IIT Madras, specializing in AI/ML, Full-Stack Development, and Cloud Computing.',
-  alternates: { canonical: 'https://aqsajoharbaig.vercel.app/about' },
+  alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
 }
 
 const skills = [
@@ -63,8 +63,8 @@ export default function About() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsajoharbaig.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'About', item: 'https://aqsajoharbaig.vercel.app/about' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'About', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
     ],
   }
 
