@@ -1,16 +1,30 @@
-import { MetadataRoute } from 'next'
+import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app'
   return {
     rules: [
       {
+        userAgent: 'Googlebot',
+        allow: ['/'],
+        disallow: [
+          '/_next/',
+          '/api/',
+          '/*.json$',
+          '/*?*sort=', // Prevent crawling of sorted/filtered versions
+          '/*?*page=', // Prevent crawling duplicate paginated versions
+        ],
+      },
+      {
         userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/'],
+        allow: ['/'],
+        disallow: [
+          '/_next/',
+          '/api/',
+          '/*.json$',
+        ],
+        crawlDelay: 1, // Respect server load
       },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
-    host: baseUrl,
+    sitemap: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/sitemap.xml',
   }
 }
