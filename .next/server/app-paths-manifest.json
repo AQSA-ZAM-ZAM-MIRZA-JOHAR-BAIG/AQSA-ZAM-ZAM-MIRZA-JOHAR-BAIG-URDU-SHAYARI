@@ -1,3 +1,15 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/certifications/page": "app/certifications/page.js",
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
+  "/urdu-shayari/page": "app/urdu-shayari/page.js",
+  "/projects/aws-cloud-architecture/page": "app/projects/aws-cloud-architecture/page.js",
+  "/projects/ipo-predictor/page": "app/projects/ipo-predictor/page.js",
+  "/projects/falcovita-healthcare/page": "app/projects/falcovita-healthcare/page.js",
+  "/contact/page": "app/contact/page.js"
 }

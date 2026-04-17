@@ -317,7 +317,7 @@ export default function AWSArchitecturePage() {
                     Multi-AZ RDS + Read replicas + S3 cross-region replication. Single point of failure = production nightmares.
                   </p>
                 </div>
-              </li>
+              </div>
               <div className="flex gap-4">
                 <span className="text-2xl font-bold text-green-600 mt-1">2.</span>
                 <div>
