@@ -266,6 +266,8 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
                 download
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold rounded-lg transition-all"
               >
