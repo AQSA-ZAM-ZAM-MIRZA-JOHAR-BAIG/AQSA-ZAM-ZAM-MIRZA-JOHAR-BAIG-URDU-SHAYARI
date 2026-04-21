@@ -29,6 +29,7 @@ export const metadata: Metadata = {
 }
 
 export default function AWSArchitecturePage() {
+  // Schema definitions for SEO and structured data
   const projectSchema = {
     '@context': 'https://schema.org',
     '@type': 'CreativeWork',
