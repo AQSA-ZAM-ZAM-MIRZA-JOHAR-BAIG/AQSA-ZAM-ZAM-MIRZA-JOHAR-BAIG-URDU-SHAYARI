@@ -3,6 +3,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'MERN Portfolio | AQSA ZAM ZAM MIRZA JOHAR BAIG',
   description: 'Full-stack MERN portfolio project',
+  alternates: {
+    canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/projects/mern-portfolio',
+  },
 }
 
 export default function MernPortfolioPage() {

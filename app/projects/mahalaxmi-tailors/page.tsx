@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Mahalaxmi Tailors | AQSA ZAM ZAM MIRZA JOHAR BAIG',
-  description: 'E-commerce platform for tailoring services',
+  description: 'E-commerce platform for tailoring services and custom clothing.',
+  alternates: {
+    canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/projects/mahalaxmi-tailors',
+  },
 }
 
 export default function MahalaxmiTailorsPage() {
