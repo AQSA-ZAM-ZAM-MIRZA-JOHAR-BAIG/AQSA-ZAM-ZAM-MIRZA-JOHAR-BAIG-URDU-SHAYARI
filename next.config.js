@@ -43,22 +43,6 @@ const nextConfig = {
 
   async redirects() {
     return [
-      // Redirect URLs without trailing slash to with trailing slash (for canonicalization)
-      {
-        source: '/about',
-        destination: '/about/',
-        permanent: true,
-      },
-      {
-        source: '/portfolio',
-        destination: '/portfolio/',
-        permanent: true,
-      },
-      {
-        source: '/projects/:slug',
-        destination: '/projects/:slug/',
-        permanent: true,
-      },
       // Catch old URLs (from previous site versions if migrating)
       {
         source: '/aqsa-profile',

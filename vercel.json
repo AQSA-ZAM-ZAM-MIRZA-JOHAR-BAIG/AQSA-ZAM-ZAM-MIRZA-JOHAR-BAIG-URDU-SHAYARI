@@ -1,4 +1,18 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app" }],
+      "destination": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app" }],
+      "destination": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/$1",
+      "permanent": true
+    }
+  ]
 }
