@@ -6,7 +6,7 @@ import { Cpu, Code, Cloud, ChevronRight, MapPin, GraduationCap, Award } from 'lu
 export const metadata: Metadata = {
   title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
   description:
-    'Official portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack development. Computer Science student at VIIT Pune and IIT Madras.',
+    'Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML & Full-Stack Developer. CS student at VIIT Pune and IIT Madras.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
 }
 
@@ -78,7 +78,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsajoharbaig.vercel.app' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
     ],
   }
 

@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { ExternalLink, Github, Scale, BookOpen, Gavel, FileText, Globe } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Portfolio | AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Projects',
+  title: 'Portfolio | Software Projects & AI-ML',
   description:
-    'Explore the software development portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — including AI/ML models, Full-Stack applications, and Cloud-based systems built with MERN, AWS, and Python.',
+    'Software portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML models, Full-Stack apps & Cloud systems built with MERN, AWS, and Python.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/portfolio' },
+  openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/portfolio' },
 }
 
 const categoryIcons: Record<string, React.ElementType> = {

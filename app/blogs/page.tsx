@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { Calendar, Clock, User, BookOpen, Tag } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Tech Blogs | AQSA ZAM ZAM MIRZA JOHAR BAIG — AI, ML & Full-Stack',
+  title: 'Tech Blogs | AI, ML & Full-Stack',
   description:
-    'Technical blogs and articles by AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Web Technologies. Read about MERN stack, AWS Cloud, and Neural Networks.',
+    'Tech blogs by AQSA ZAM ZAM MIRZA JOHAR BAIG on AI/ML, MERN stack, AWS Cloud, and Full-Stack web development.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs' },
+  openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs' },
 }
 
 const blogs = [
@@ -16,10 +17,12 @@ const blogs = [
       'A comprehensive guide to architecting a production-ready e-commerce platform. This article covers secure authentication using JWT, role-based access control (RBAC), and deploying on AWS using EC2, S3, and Route 53 for high availability.',
     category: 'Full Stack',
     date: 'March 2026',
+    dateISO: '2026-03-01',
     readTime: '10 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     tags: ['MERN', 'AWS', 'E-commerce', 'Full Stack'],
     color: 'blue',
+    slug: 'building-scalable-ecommerce-mern-aws',
   },
   {
     title: 'Ensemble Learning: Achieving 80% Accuracy in IPO Success Prediction',
@@ -27,10 +30,12 @@ const blogs = [
       'Detailed analysis of using Bagging and Boosting techniques to predict IPO market performance. Deep dive into data pre-processing, feature engineering, and evaluating model performance using Precision, Recall, and F1-score.',
     category: 'AI / ML',
     date: 'February 2026',
+    dateISO: '2026-02-01',
     readTime: '12 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     tags: ['Machine Learning', 'Python', 'Ensemble Learning', 'Data Science'],
     color: 'amber',
+    slug: 'ensemble-learning-ipo-success-prediction',
   },
   {
     title: 'Asynchronous Task Processing with Celery and Redis in Flask',
@@ -38,10 +43,12 @@ const blogs = [
       'Learn how to reduce API request latency by offloading heavy computations to background tasks. This guide covers setting up Celery workers, using Redis as a message broker, and implementing real-time progress updates.',
     category: 'Web Tech',
     date: 'January 2026',
+    dateISO: '2026-01-01',
     readTime: '8 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     tags: ['Flask', 'Celery', 'Redis', 'Python'],
     color: 'green',
+    slug: 'async-task-processing-celery-redis-flask',
   },
   {
     title: 'Cloud-Native Architectures: Implementing 15+ AWS Services',
@@ -49,10 +56,12 @@ const blogs = [
       'A practitioner\'s journey of deploying fault-tolerant architectures on AWS. Covering CloudFormation for Infrastructure as Code (IaC), Lambda for serverless, and RDS for managed database solutions.',
     category: 'Cloud',
     date: 'December 2025',
+    dateISO: '2025-12-01',
     readTime: '15 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     tags: ['AWS', 'Cloud', 'DevOps', 'Infrastructure'],
     color: 'rose',
+    slug: 'cloud-native-architectures-aws-services',
   },
   {
     title: 'Interactive Data Visualization with Chart.js and D3.js',
@@ -60,10 +69,12 @@ const blogs = [
       'Exploring the intersection of data and design. How to build 20+ interactive charts and dashboards that provide meaningful insights from complex healthcare datasets using modern JavaScript libraries.',
     category: 'Frontend',
     date: 'November 2025',
+    dateISO: '2025-11-01',
     readTime: '9 min read',
     author: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     tags: ['JavaScript', 'Chart.js', 'Data Visualization', 'Vue.js'],
     color: 'purple',
+    slug: 'interactive-data-visualization-chartjs-d3',
   },
 ]
 
@@ -92,13 +103,20 @@ export default function Blogs() {
     itemListElement: blogs.map((b, i) => ({
       '@type': 'ListItem',
       position: i + 1,
+      url: `https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs#${b.slug}`,
       item: {
         '@type': 'BlogPosting',
+        '@id': `https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs#${b.slug}`,
+        url: `https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/blogs#${b.slug}`,
         headline: b.title,
         description: b.excerpt,
         author: { '@type': 'Person', name: b.author },
-        datePublished: b.date,
-        publisher: { '@type': 'Person', name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG' },
+        datePublished: b.dateISO,
+        publisher: {
+          '@type': 'Organization',
+          name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
+          url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
+        },
       },
     })),
   }

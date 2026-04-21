@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app'),
   title: {
     default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
-    template: '%s | AQSA ZAM ZAM MIRZA JOHAR BAIG',
+    template: '%s | Aqsa Mirza',
   },
   description:
-    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML, Full-Stack Development, and Cloud Systems. Computer Science student at VIIT Pune and IIT Madras.',
+    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML specialist & CS student at VIIT Pune and IIT Madras.',
   keywords: [
     'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     'Aqsa Mirza',
@@ -95,7 +95,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         url: 'https://iitm.ac.in',
       },
     ],
-    memberOf: [
+    affiliation: [
       {
         '@type': 'EducationalOrganization',
         name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
@@ -111,7 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       addressRegion: 'Maharashtra',
       addressCountry: 'IN',
     },
-    nationality: 'Indian',
+    nationality: { '@type': 'Country', name: 'India' },
     url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     sameAs: [
       'https://www.linkedin.com/in/aqsamirza08',

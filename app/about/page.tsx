@@ -4,10 +4,11 @@ import Image from 'next/image'
 import { GraduationCap, MapPin, Award, CheckCircle2, Download, Linkedin, Github } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Student',
+  title: 'About | Software Developer & AI-ML Student',
   description:
-    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — Computer Science student at VIIT Pune and IIT Madras, specializing in AI/ML, Full-Stack Development, and Cloud Computing.',
+    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIT Pune & IIT Madras, specializing in AI/ML, Full-Stack, and Cloud Computing.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
+  openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
 }
 
 const skills = [
