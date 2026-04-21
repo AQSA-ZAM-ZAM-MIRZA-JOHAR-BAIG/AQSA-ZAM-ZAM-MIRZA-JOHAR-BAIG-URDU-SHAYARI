@@ -139,7 +139,7 @@ export default function AWSArchitecturePage() {
                 <h3 className="text-sm font-semibold text-amber-600 dark:text-amber-400 uppercase tracking-widest mb-2">
                   Failover Time
                 </h3>
-                <p className="text-lg font-semibold">< 5 seconds</p>
+                <p className="text-lg font-semibold">&lt;5 seconds</p>
               </div>
               <div className="bg-slate-50 dark:bg-slate-700 p-6 rounded-lg">
                 <h3 className="text-sm font-semibold text-amber-600 dark:text-amber-400 uppercase tracking-widest mb-2">
@@ -326,7 +326,7 @@ export default function AWSArchitecturePage() {
                     CloudWatch custom metrics saved us hours. Anomaly detection caught a memory leak before users noticed.
                   </p>
                 </div>
-              </li>
+              </div>
               <div className="flex gap-4">
                 <span className="text-2xl font-bold text-purple-600 mt-1">3.</span>
                 <div>
@@ -335,7 +335,7 @@ export default function AWSArchitecturePage() {
                     42% savings came from iterative changes (RIs, Spot, Glacier). Review bills monthly; AWS offerings evolve constantly.
                   </p>
                 </div>
-              </li>
+              </div>
             </div>
           </div>
         </section>

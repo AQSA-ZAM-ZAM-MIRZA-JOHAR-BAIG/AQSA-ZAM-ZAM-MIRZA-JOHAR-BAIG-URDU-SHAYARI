@@ -287,7 +287,7 @@ export default function FalcoVitaPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Redis Caching is Non-Optional</h3>
                   <p className="text-slate-700 dark:text-slate-300">
-                    Without Redis, repeated queries hit the database. With it, repeated visualizations load in <100ms. Difference between professional and amateur products.
+                    Without Redis, repeated queries hit the database. With it, repeated visualizations load in &lt;100ms. Difference between professional and amateur products.
                   </p>
                 </div>
               </li>

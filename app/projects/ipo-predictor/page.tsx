@@ -297,18 +297,18 @@ iface.launch()
               <div className="flex gap-4">
                 <span className="text-2xl font-bold text-green-600 mt-1">💡</span>
                 <div>
-                  <h3 className="font-bold text-lg mb-1">Ensemble > Single Model</h3>
+                  <h3 className="font-bold text-lg mb-1">Ensemble &gt; Single Model</h3>
                   <p className="text-slate-700 dark:text-slate-300">
                     Best single model (XGBoost): 79%. Stacking with 5 base learners: 80.2%. Diversity in predictions captures edge cases individual models miss.
                   </p>
                 </div>
-              </li>
+              </div>
               <div className="flex gap-4">
                 <span className="text-2xl font-bold text-blue-600 mt-1">💡</span>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Feature Engineering Matters More Than Algorithm</h3>
                   <p className="text-slate-700 dark:text-slate-300">
-                    Raw features: 72% accuracy. Engineered features (Funding Efficiency Ratio, Founder Experience Score): 80%+. Domain expertise > algorithmic tweaks.
+                    Raw features: 72% accuracy. Engineered features (Funding Efficiency Ratio, Founder Experience Score): 80%+. Domain expertise &gt; algorithmic tweaks.
                   </p>
                 </div>
               </div>
