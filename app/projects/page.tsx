@@ -28,6 +28,18 @@ export default function ProjectsPage() {
       slug: 'ipo-predictor',
       tags: ['Machine Learning', 'Python', 'Scikit-learn'],
     },
+    {
+      title: 'MERN Portfolio',
+      description: 'Full-stack portfolio built with MongoDB, Express, React, and Node.js.',
+      slug: 'mern-portfolio',
+      tags: ['MERN', 'Full-stack', 'JavaScript'],
+    },
+    {
+      title: 'Mahalaxmi Tailors',
+      description: 'E-commerce platform for tailoring services and custom clothing.',
+      slug: 'mahalaxmi-tailors',
+      tags: ['E-commerce', 'Web App', 'Business'],
+    },
   ]
 
   return (
