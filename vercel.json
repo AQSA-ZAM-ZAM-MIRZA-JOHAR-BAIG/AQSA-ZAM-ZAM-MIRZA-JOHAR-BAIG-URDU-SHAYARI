@@ -3,15 +3,9 @@
   "buildCommand": "npm run build",
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "www.aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app" }],
-      "destination": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/$1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [{ "type": "host", "value": "aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app" }],
-      "destination": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/$1",
+      "destination": "https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/:path*",
       "permanent": true
     }
   ]
