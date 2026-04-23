@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'Professional Credentials',
   ],
   alternates: {
-    canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/certifications',
+    canonical: '',
   },
 }
 
@@ -57,7 +57,7 @@ export default function CertificationsPage() {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Certifications', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/certifications' },
+      { '@type': 'ListItem', position: 2, name: 'Certifications', item: '' },
     ],
   }
 

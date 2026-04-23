@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Portfolio of software engineering projects including cloud architecture, healthcare platforms, and machine learning models.',
   keywords: ['projects', 'portfolio', 'software engineering', 'cloud architecture', 'machine learning'],
   alternates: {
-    canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/projects',
+    canonical: '',
   },
 }
 

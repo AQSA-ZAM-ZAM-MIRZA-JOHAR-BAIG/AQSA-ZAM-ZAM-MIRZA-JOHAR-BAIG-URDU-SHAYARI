@@ -62,7 +62,7 @@ export default function FalcoVitaPage() {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
       { '@type': 'ListItem', position: 2, name: 'Portfolio', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/portfolio' },
-      { '@type': 'ListItem', position: 3, name: 'Projects', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/projects' },
+      { '@type': 'ListItem', position: 3, name: 'Projects', item: '' },
       { '@type': 'ListItem', position: 4, name: 'FalcoVita', item: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/projects/falcovita-healthcare' },
     ],
   }
