@@ -6,7 +6,7 @@ import { GraduationCap, MapPin, Award, CheckCircle2, Download, Linkedin, Github 
 export const metadata: Metadata = {
   title: 'About | Software Developer & AI-ML Student',
   description:
-    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIT Pune & IIT Madras, specializing in AI/ML, Full-Stack, and Cloud Computing.',
+    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIIT PUNE & IIIT Madras, specializing in AI/ML, Full-Stack, and Cloud Computing.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
   openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
 }
@@ -23,7 +23,7 @@ const skills = [
 const education = [
   {
     degree: 'B.Tech in Computer Science and Engineering (AI & ML)',
-    institution: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
+    institution: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
     period: 'Aug 2023 – Jun 2027',
     specialization: 'CGPA: 8.77',
     location: 'Pune, Maharashtra, India',
@@ -37,7 +37,7 @@ const education = [
   },
   {
     degree: 'Bachelor of Science (BS) in Data Science',
-    institution: 'Indian Institute of Technology (IITM), IIT Madras',
+    institution: 'Indian Institute of Technology (IITM), IIIT Madras',
     period: 'May 2023 – Jun 2027',
     specialization: 'CGPA: 7.44',
     location: 'Chennai (Online/Remote)',
@@ -135,7 +135,7 @@ export default function About() {
                     With experience in building scalable full-stack applications and cloud-based distributed systems using <strong className="text-slate-800 dark:text-slate-200">Java, Python, JavaScript, and AWS</strong>, she has a proven ability to design RESTful APIs, implement secure authentication mechanisms, and deploy production-ready applications following software development best practices.
                   </p>
                   <p>
-                    She is currently pursuing a dual degree: <em>B.Tech in CSE (AI & ML)</em> from <strong>VIIT Pune</strong> and a <em>BS in Data Science</em> from <strong>IIT Madras</strong>. This rigorous academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
+                    She is currently pursuing a dual degree: <em>B.Tech in CSE (AI & ML)</em> from <strong>VIIIT PUNE</strong> and a <em>BS in Data Science</em> from <strong>IIIT Madras</strong>. This rigorous academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
                   </p>
                   <p>
                     Beyond core development, she actively explores emerging technologies, having completed industry programs by <strong className="text-slate-800 dark:text-slate-200">Google (AI & ML)</strong>, <strong className="text-slate-800 dark:text-slate-200">AWS (Cloud Practices)</strong>, and <strong className="text-slate-800 dark:text-slate-200">EduSkills (Web Development)</strong>. Her goal is to leverage AI to solve complex real-world problems through robust and scalable software solutions.

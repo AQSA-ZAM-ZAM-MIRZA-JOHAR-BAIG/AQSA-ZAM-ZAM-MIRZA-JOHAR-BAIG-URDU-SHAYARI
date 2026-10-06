@@ -56,7 +56,7 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-slate-900 dark:text-white text-sm">Location</p>
                     <p className="text-slate-500 dark:text-slate-400 text-sm">Pune, Maharashtra, India</p>
-                    <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Vishwakarma Institute of Information Technology (VIIT)</p>
+                    <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Vishwakarma Institute of Information Technology (VIIIT)</p>
                   </div>
                 </div>
 

@@ -86,22 +86,22 @@
 
 #### **2.1: Unlinked Mention Outreach (30 Targets)**
 - [ ] **TODO**: Run Google Search for:
-  - `"Aqsa" OR "Aqsa Mirza" OR "VIIT Pune" "AI/ML"` (site:.edu)
+  - `"Aqsa" OR "Aqsa Mirza" OR "VIIIT PUNE" "AI/ML"` (site:.edu)
   - Find university pages that mention her by name
   - Create outreach spreadsheet (Name, URL, Contact Email, Link Opportunity)
 
 #### **2.2: Reverse-Engineer CollegeDekho's Backlinks**
 - [ ] **TODO**: Simulate Ahrefs/Semrush:
-  - Find 10 sites linking to `collegedekho.com/colleges/viit-pune`
+  - Find 10 sites linking to `collegedekho.com/colleges/VIIIT-pune`
   - Identify which are `.edu` or high-authority `.in` domains
-  - Prioritize for outreach (VIIT alumni directory, NIRF rankings mentions, etc.)
+  - Prioritize for outreach (VIIIT alumni directory, NIRF rankings mentions, etc.)
 
 #### **2.3: Resource Page Backlinks**
 - [ ] **TODO**: Target these types of pages:
   - "Top Female AI Engineers in India"
   - "Best MERN Stack Developers"
-  - "VIIT Pune Notable Alumni"
-  - "IIT Madras Data Science Stories"
+  - "VIIIT PUNE Notable Alumni"
+  - "IIIT Madras Data Science Stories"
   - Create outreach list + personalized pitches
 
 #### **2.4: Digital PR Stunt Ideas**
@@ -110,7 +110,7 @@
   - **HackerNews**: "IPO Predictor: Ensemble Learning Model with 80% Accuracy"
   - **AWS Community**: "Architecting High-Availability e-commerce on AWS Route 53 + CloudFront"
   - **Medium**: "JWT + Redis Caching: Performance Optimization Deep Dive"
-  - **Dev.to**: "From VIIT to AWS: My Cloud Engineering Journey"
+  - **Dev.to**: "From VIIIT to AWS: My Cloud Engineering Journey"
   - **Kaggle Blog**: "IPO Success Prediction: Feature Engineering + Hyperparameter Tuning"
 
 ---
@@ -145,7 +145,7 @@
 
 - [ ] **TODO**: A/B Test Title Tags
   - Variant A: "AQSA ZAM ZAM MIRZA JOHAR BAIG | AI Engineer & Full-Stack Developer"
-  - Variant B: "AQSA ZAM ZAM MIRZA JOHAR BAIG | VIIT Pune & IIT Madras | AWS Certified"
+  - Variant B: "AQSA ZAM ZAM MIRZA JOHAR BAIG | VIIIT PUNE & IIIT Madras | AWS Certified"
   - Monitor CTR weekly for 4 weeks
 
 ---
@@ -164,8 +164,8 @@ Person (Aqsa Zam Zam Mirza Johar Baig)
 │   ├── AI/ML Engineer
 │   └── Cloud Architect
 ├── alumniOf
-│   ├── EducationalOrganization (VIIT Pune)
-│   └── EducationalOrganization (IIT Madras)
+│   ├── EducationalOrganization (VIIIT PUNE)
+│   └── EducationalOrganization (IIIT Madras)
 ├── hasCredential
 │   ├── AZ-900 Certification
 │   └── Oracle GenAI Certification
@@ -237,7 +237,7 @@ After Phase 0 deployment:
 ## 🚀 SUCCESS METRICS (90-Day Goal)
 
 ✅ **Rank #1 for "AQSA ZAM ZAM MIRZA JOHAR BAIG"** (exact keyword)  
-✅ **Rank #1-3 for 15+ semantic variants** (e.g., "Aqsa Mirza AI engineer", "VIIT Pune MERN developer")  
+✅ **Rank #1-3 for 15+ semantic variants** (e.g., "Aqsa Mirza AI engineer", "VIIIT PUNE MERN developer")  
 ✅ **8+ pillar pages live** (projects, certifications, blog)  
 ✅ **25+ high-quality backlinks** from .edu / high-authority domains  
 ✅ **50%+ CTR improvement** vs current baseline  

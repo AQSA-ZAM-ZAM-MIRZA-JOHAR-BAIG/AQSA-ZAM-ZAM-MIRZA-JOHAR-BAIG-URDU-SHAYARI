@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | Aqsa Mirza',
   },
   description:
-    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML specialist & CS student at VIIT Pune and IIT Madras.',
+    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML specialist & CS student at VIIIT PUNE and IIIT Madras.',
   keywords: [
     'AQSA ZAM ZAM MIRZA JOHAR BAIG',
     'Aqsa Mirza',
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     'Aqsa Zam Zam Mirza Johar Baig',
     'AqsA Zam Zam Johar Baig',
     'Software Developer Pune',
-    'VIIT Pune',
-    'IIT Madras Data Science',
+    'VIIIT PUNE',
+    'IIIT Madras Data Science',
     'Full Stack Developer',
     'AI-ML Specialist',
     'AWS Cloud Engineer',
@@ -69,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     alternateName: ['Aqsa Mirza', 'AqsA Zam Zam Mirza', 'Aqsa Johar Baig', 'AqsA Zam Zam'],
     jobTitle: 'Software Developer, AI-ML Enthusiast & Data Scientist',
     description:
-      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a highly ambitious Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIT Pune and Data Science at IIT Madras. Professional experience in building scalable full-stack applications and cloud architectures.',
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a highly ambitious Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIIT PUNE and Data Science at IIIT Madras. Professional experience in building scalable full-stack applications and cloud architectures.',
     knowsAbout: [
       'Artificial Intelligence (AI)',
       'Machine Learning (ML)',
@@ -86,23 +86,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     alumniOf: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
-        url: 'https://viit.ac.in',
+        name: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
+        url: 'https://VIIIT.ac.in',
       },
       {
         '@type': 'EducationalOrganization',
-        name: 'Indian Institute of Technology Madras (IITM), IIT Madras',
+        name: 'Indian Institute of Technology Madras (IITM), IIIT Madras',
         url: 'https://iitm.ac.in',
       },
     ],
     affiliation: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Vishwakarma Institute of Information Technology (VIIT), Pune',
+        name: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
       },
       {
         '@type': 'EducationalOrganization',
-        name: 'IIT Madras Data Science Community',
+        name: 'IIIT Madras Data Science Community',
       },
     ],
     address: {

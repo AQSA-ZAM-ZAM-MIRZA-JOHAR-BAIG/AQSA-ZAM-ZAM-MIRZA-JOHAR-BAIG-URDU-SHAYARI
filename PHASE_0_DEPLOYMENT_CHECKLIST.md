@@ -55,8 +55,8 @@ const personSchema = {
   alumniOf: [
     {
       '@type': 'EducationalOrganization',
-      '@id': 'https://viit.ac.in',
-      name: 'Vishwakarma Institute of Information Technology (VIIT)',
+      '@id': 'https://VIIIT.ac.in',
+      name: 'Vishwakarma Institute of Information Technology (VIIIT)',
     },
     {
       '@type': 'EducationalOrganization',
