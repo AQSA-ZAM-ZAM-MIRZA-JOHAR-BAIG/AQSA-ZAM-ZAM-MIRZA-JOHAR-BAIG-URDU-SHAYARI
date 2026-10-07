@@ -6,23 +6,29 @@ import Footer from '../components/Footer'
 export const metadata: Metadata = {
   metadataBase: new URL('https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app'),
   title: {
-    default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
-    template: '%s | Aqsa Mirza',
+    default: 'AQSA ZAM ZAM MIRZA JOHAR BAIG (Aqsa Mirza) | AI Developer & Urdu Literature Portfolio',
+    template: '%s | Aqsa Zam Zam Mirza Johar Baig (Aqsa Mirza)',
   },
   description:
-    'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer, AI/ML specialist & CS student at VIIIT PUNE and IIIT Madras.',
+    'Official website and verified portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG (also known as Aqsa Zam Zam Mirza and Aqsa Mirza) — Software Developer, AI/ML specialist, and Urdu literature scholar.',
   keywords: [
     'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    'Aqsa Mirza',
-    'AqsA Zam Zam Mirza',
     'Aqsa Zam Zam Mirza Johar Baig',
-    'AqsA Zam Zam Johar Baig',
+    'aqsa zam zam mirza johar baig',
+    'AQSA ZAM ZAM MIRZA',
+    'Aqsa Zam Zam Mirza',
+    'aqsa zam zam mirza',
+    'AQSA MIRZA',
+    'Aqsa Mirza',
+    'aqsa mirza',
+    'Aqsa Johar Baig',
     'Software Developer Pune',
     'VIIIT PUNE',
     'IIIT Madras Data Science',
     'Full Stack Developer',
     'AI-ML Specialist',
     'AWS Cloud Engineer',
+    'Urdu Shayari Aqsa Mirza',
   ],
   authors: [{ name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG', url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' }],
   creator: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
@@ -32,10 +38,13 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
   },
+  verification: {
+    google: 'googlee89522a79f5eb2c7',
+  },
   openGraph: {
-    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
+    title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG (Aqsa Mirza) | Software Developer & AI-ML Enthusiast',
     description:
-      'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG — Software Developer specializing in AI/ML and Full-Stack Development.',
+      'Official website of AQSA ZAM ZAM MIRZA JOHAR BAIG (Aqsa Zam Zam Mirza / Aqsa Mirza) — Software Developer specializing in AI/ML, Full-Stack Development, and Urdu Literature.',
     url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     siteName: 'AQSA ZAM ZAM MIRZA JOHAR BAIG — Official Website',
     images: [
@@ -53,7 +62,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
     description:
-      'Explore projects in AI/ML and Full-Stack development by AQSA ZAM ZAM MIRZA JOHAR BAIG.',
+      'Explore projects in AI/ML, Full-Stack development, and Urdu Shayari by AQSA ZAM ZAM MIRZA JOHAR BAIG (Aqsa Mirza).',
     images: ['/profile.png'],
   },
   alternates: {
@@ -66,7 +75,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'AQSA ZAM ZAM MIRZA JOHAR BAIG',
-    alternateName: ['Aqsa Mirza', 'AqsA Zam Zam Mirza', 'Aqsa Johar Baig', 'AqsA Zam Zam'],
+    alternateName: [
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG',
+      'Aqsa Zam Zam Mirza Johar Baig',
+      'aqsa zam zam mirza johar baig',
+      'AQSA ZAM ZAM MIRZA',
+      'Aqsa Zam Zam Mirza',
+      'aqsa zam zam mirza',
+      'AQSA MIRZA',
+      'Aqsa Mirza',
+      'aqsa mirza',
+      'Aqsa Johar Baig',
+    ],
     jobTitle: 'Software Developer, AI-ML Enthusiast & Data Scientist',
     description:
       'AQSA ZAM ZAM MIRZA JOHAR BAIG is a highly ambitious Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIIT PUNE and Data Science at IIIT Madras. Professional experience in building scalable full-stack applications and cloud architectures.',
@@ -82,6 +102,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       'React.js',
       'DevOps',
       'Scalable Systems',
+      'Urdu Literature & Poetry',
     ],
     alumniOf: [
       {
@@ -114,6 +135,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     nationality: { '@type': 'Country', name: 'India' },
     url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app',
     sameAs: [
+      'https://aqsa-zam-zam-mirza-johar-baig-portf.vercel.app/',
+      'https://aqsa-zam-zam-mirza-johar-baig-blogs.vercel.app/',
+      'https://aqsa-zam-zam-mirza-johar-baig-const.vercel.app/',
+      'https://aqsa-zam-zam-mirza-johar-baig-law-d.vercel.app/',
+      'https://aqsa-zam-zam-mirza-johar-baig-law-f.vercel.app/',
+      'https://aqsazamzammirzajoharbaig.com/',
+      'https://firgenerator.org/',
+      'https://www.aqsazamzammirzajoharbaig.com/',
+      'https://aqsa-zam-zam-mirza-johar-baig-portfolio-3.vercel.app/',
+      'https://aqsa-zam-zam-mirza-johar-baig.github.io/Yashwantrao-chavan-mahavidyalaya/',
       'https://www.linkedin.com/in/aqsamirza08',
       'https://github.com/AQSA-ZAM-ZAM-MIRZA-JOHAR-BAIG',
       'https://www.kaggle.com/aqsamirza08',
@@ -155,6 +186,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <meta name="google-site-verification" content="googlee89522a79f5eb2c7" />
         <meta name="geo.region" content="IN-MH" />
         <meta name="geo.placename" content="Pune, Maharashtra, India" />
         <meta name="language" content="English" />
