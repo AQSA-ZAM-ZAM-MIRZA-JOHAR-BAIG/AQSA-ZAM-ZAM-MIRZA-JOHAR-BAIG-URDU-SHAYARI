@@ -6,7 +6,7 @@ import { Cpu, Code, Cloud, ChevronRight, MapPin, GraduationCap, Award } from 'lu
 export const metadata: Metadata = {
   title: 'AQSA ZAM ZAM MIRZA JOHAR BAIG | Software Developer & AI-ML Enthusiast',
   description:
-    'Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML & Full-Stack Developer. CS student at Yashwantrao College (Grade O Outstanding, Open Category).',
+    'Portfolio of AQSA ZAM ZAM MIRZA JOHAR BAIG — AI/ML & Full-Stack Developer. CS student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category).',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app' },
 }
 
@@ -53,7 +53,7 @@ const features = [
 const faqs = [
   {
     q: 'Who is AQSA ZAM ZAM MIRZA JOHAR BAIG?',
-    a: 'AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science achiever specializing in Artificial Intelligence and Machine Learning. She is a Full-Stack Developer and AWS Cloud practitioner from Yashwantrao College (Grade O Outstanding, Open Category).',
+    a: 'AQSA ZAM ZAM MIRZA JOHAR BAIG is a Computer Science achiever specializing in Artificial Intelligence and Machine Learning. She is a Full-Stack Developer and AWS Cloud practitioner from Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category).',
   },
   {
     q: 'What are Aqsa\'s core technical strengths?',
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'Where is Aqsa Zam Zam Mirza Johar Baig studying?',
-    a: 'She studied Computer Science at Yashwantrao College, achieving Grade O (Outstanding) under Open Category.',
+    a: 'She studied Computer Science at Y.C. College (Yashwantrao Chavan College), achieving Grade O (Outstanding) under Open Category.',
   },
   {
     q: 'What notable projects has she built?',
@@ -235,7 +235,7 @@ export default function Home() {
                 <strong className="text-slate-800 dark:text-slate-200">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> is a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning. With a strong foundation in Data Structures, Algorithms, and System Design, she focuses on building scalable applications and cloud-based distributed systems.
               </p>
               <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-                She achieved academic distinction in Computer Science from Yashwantrao College with Grade O (Outstanding) under Open Category. Her expertise spans across Java, Python, JavaScript, and AWS, with a proven track record of designing RESTful APIs and secure authentication mechanisms.
+                She achieved academic distinction in Computer Science from Y.C. College (Yashwantrao Chavan College) with Grade O (Outstanding) under Open Category. Her expertise spans across Java, Python, JavaScript, and AWS, with a proven track record of designing RESTful APIs and secure authentication mechanisms.
               </p>
               <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400 mb-6">
                 <Award className="w-4 h-4 text-amber-600" aria-hidden="true" />
@@ -255,7 +255,7 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-3 text-sm">
                   {[
-                    ['🎓', 'Institution', 'Yashwantrao College (Grade O, Open)'],
+                    ['🎓', 'Institution', 'Y.C. College (Grade O, Open)'],
                     ['📍', 'Location', 'Pune, Maharashtra, India'],
                     ['🔥', 'Specialization', 'AI & Machine Learning'],
                     ['💻', 'Focus', 'Full Stack & Cloud Systems'],

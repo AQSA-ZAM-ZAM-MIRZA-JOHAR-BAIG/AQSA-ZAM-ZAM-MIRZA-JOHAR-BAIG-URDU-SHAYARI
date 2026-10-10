@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <p className="text-sm font-semibold text-white mb-1">AQSA ZAM ZAM MIRZA JOHAR BAIG</p>
             <p className="text-xs text-slate-400 mb-4 leading-relaxed">
-              Software Developer specializing in AI/ML · Full-Stack Developer · Cloud Practitioner · Student at Yashwantrao College (Grade O Outstanding, Open Category)
+              Software Developer specializing in AI/ML · Full-Stack Developer · Cloud Practitioner · Student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category)
             </p>
             <div className="flex items-center gap-1 text-xs text-slate-400 mb-2">
               <MapPin className="w-3 h-3 flex-shrink-0" aria-hidden="true" />

@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     'aqsa mirza',
     'Aqsa Johar Baig',
     'Software Developer Pune',
+    'Y.C. College',
+    'Y.C College',
     'Yashwantrao College',
     'Full Stack Developer',
     'AI-ML Specialist',
@@ -88,7 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
     jobTitle: 'Software Developer, AI-ML Enthusiast & Data Scientist',
     description:
-      'AQSA ZAM ZAM MIRZA JOHAR BAIG is an ambitious Computer Science student at Yashwantrao College (Grade O Outstanding, Open Category), specializing in Artificial Intelligence, Machine Learning, and scalable software systems.',
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG is an ambitious Computer Science student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category), specializing in Artificial Intelligence, Machine Learning, and scalable software systems.',
     knowsAbout: [
       'Artificial Intelligence (AI)',
       'Machine Learning (ML)',
@@ -106,13 +108,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     alumniOf: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Yashwantrao College',
+        name: 'Y.C. College (Yashwantrao Chavan College)',
       },
     ],
     affiliation: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Yashwantrao College',
+        name: 'Y.C. College (Yashwantrao Chavan College)',
       },
     ],
     address: {

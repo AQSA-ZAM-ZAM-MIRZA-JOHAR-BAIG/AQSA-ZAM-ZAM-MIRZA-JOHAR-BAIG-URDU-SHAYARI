@@ -110,7 +110,7 @@ export default function Portfolio() {
             Software Portfolio & Tech Projects
           </h1>
           <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-            By <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at Yashwantrao College. AI/ML, Full-Stack development, and Cloud Architecture.
+            By <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at Y.C. College (Yashwantrao Chavan College). AI/ML, Full-Stack development, and Cloud Architecture.
           </p>
         </section>
 
@@ -189,7 +189,7 @@ export default function Portfolio() {
           <p className="text-center text-sm text-slate-400 mt-12">
             All code and project work listed above is developed by{' '}
             <strong className="text-slate-600 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>
-            {' '} — CS Student, Yashwantrao College (Grade O Outstanding, Open Category) · Last updated: March 2026
+            {' '} — CS Student, Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category) · Last updated: March 2026
           </p>
         </div>
       </div>

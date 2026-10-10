@@ -6,7 +6,7 @@ import { GraduationCap, MapPin, Award, CheckCircle2, Download, Linkedin, Github 
 export const metadata: Metadata = {
   title: 'About | Software Developer & AI-ML Student',
   description:
-    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at Yashwantrao College (Grade O Outstanding, Open Category), specializing in AI/ML, Full-Stack, and Cloud Computing.',
+    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at Y.C. College (Yashwantrao Chavan College, Grade O Outstanding, Open Category), specializing in AI/ML, Full-Stack, and Cloud Computing.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
   openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
 }
@@ -23,7 +23,7 @@ const skills = [
 const education = [
   {
     degree: 'Computer Science Academic Merit Standing',
-    institution: 'Yashwantrao College',
+    institution: 'Y.C. College (Yashwantrao Chavan College)',
     period: '2024 – 2025',
     specialization: 'Grade: O (Outstanding) · Category: Open',
     location: 'Maharashtra, India',
@@ -122,7 +122,7 @@ export default function About() {
                     With experience in building scalable full-stack applications and cloud-based distributed systems using <strong className="text-slate-800 dark:text-slate-200">Java, Python, JavaScript, and AWS</strong>, she has a proven ability to design RESTful APIs, implement secure authentication mechanisms, and deploy production-ready applications following software development best practices.
                   </p>
                   <p>
-                    She achieved academic distinction in Computer Science from <strong>Yashwantrao College</strong> with <strong>Grade O (Outstanding)</strong> under Open Category. This academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
+                    She achieved academic distinction in Computer Science from <strong>Y.C. College (Yashwantrao Chavan College)</strong> with <strong>Grade O (Outstanding)</strong> under Open Category. This academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
                   </p>
                   <p>
                     Beyond core development, she actively explores emerging technologies, having completed industry programs by <strong className="text-slate-800 dark:text-slate-200">Google (AI & ML)</strong>, <strong className="text-slate-800 dark:text-slate-200">AWS (Cloud Practices)</strong>, and <strong className="text-slate-800 dark:text-slate-200">EduSkills (Web Development)</strong>. Her goal is to leverage AI to solve complex real-world problems through robust and scalable software solutions.
