@@ -23,8 +23,7 @@ export const metadata: Metadata = {
     'aqsa mirza',
     'Aqsa Johar Baig',
     'Software Developer Pune',
-    'VIIIT PUNE',
-    'IIIT Madras Data Science',
+    'Yashwantrao College',
     'Full Stack Developer',
     'AI-ML Specialist',
     'AWS Cloud Engineer',
@@ -89,7 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
     jobTitle: 'Software Developer, AI-ML Enthusiast & Data Scientist',
     description:
-      'AQSA ZAM ZAM MIRZA JOHAR BAIG is a highly ambitious Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at VIIIT PUNE and Data Science at IIIT Madras. Professional experience in building scalable full-stack applications and cloud architectures.',
+      'AQSA ZAM ZAM MIRZA JOHAR BAIG is an ambitious Computer Science student at Yashwantrao College (Grade O Outstanding, Open Category), specializing in Artificial Intelligence, Machine Learning, and scalable software systems.',
     knowsAbout: [
       'Artificial Intelligence (AI)',
       'Machine Learning (ML)',
@@ -107,23 +106,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     alumniOf: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
-        url: 'https://VIIIT.ac.in',
-      },
-      {
-        '@type': 'EducationalOrganization',
-        name: 'Indian Institute of Technology Madras (IITM), IIIT Madras',
-        url: 'https://iitm.ac.in',
+        name: 'Yashwantrao College',
       },
     ],
     affiliation: [
       {
         '@type': 'EducationalOrganization',
-        name: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
-      },
-      {
-        '@type': 'EducationalOrganization',
-        name: 'IIIT Madras Data Science Community',
+        name: 'Yashwantrao College',
       },
     ],
     address: {

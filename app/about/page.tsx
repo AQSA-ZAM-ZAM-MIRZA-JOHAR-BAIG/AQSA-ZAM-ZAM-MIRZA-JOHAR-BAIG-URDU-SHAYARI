@@ -6,7 +6,7 @@ import { GraduationCap, MapPin, Award, CheckCircle2, Download, Linkedin, Github 
 export const metadata: Metadata = {
   title: 'About | Software Developer & AI-ML Student',
   description:
-    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at VIIIT PUNE & IIIT Madras, specializing in AI/ML, Full-Stack, and Cloud Computing.',
+    'Learn about AQSA ZAM ZAM MIRZA JOHAR BAIG — CS student at Yashwantrao College (Grade O Outstanding, Open Category), specializing in AI/ML, Full-Stack, and Cloud Computing.',
   alternates: { canonical: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
   openGraph: { url: 'https://aqsa-zam-zam-mirza-johar-baig-urdu.vercel.app/about' },
 }
@@ -22,31 +22,18 @@ const skills = [
 
 const education = [
   {
-    degree: 'B.Tech in Computer Science and Engineering (AI & ML)',
-    institution: 'Vishwakarma Institute of Information Technology (VIIIT), Pune',
-    period: 'Aug 2023 – Jun 2027',
-    specialization: 'CGPA: 8.77',
-    location: 'Pune, Maharashtra, India',
+    degree: 'Computer Science Academic Merit Standing',
+    institution: 'Yashwantrao College',
+    period: '2024 – 2025',
+    specialization: 'Grade: O (Outstanding) · Category: Open',
+    location: 'Maharashtra, India',
     highlights: [
-      'Specializing in Artificial Intelligence and Machine Learning',
+      'Specializing in Artificial Intelligence and Machine Learning with outstanding academic merit',
       'Strong foundations in Data Structures, Algorithms, and Object-Oriented Programming',
       'Implementing secure authentication mechanisms and RESTful APIs',
       'Proven ability to deploy production-ready applications following software development best practices',
     ],
     isPrimary: true,
-  },
-  {
-    degree: 'Bachelor of Science (BS) in Data Science',
-    institution: 'Indian Institute of Technology (IITM), IIIT Madras',
-    period: 'May 2023 – Jun 2027',
-    specialization: 'CGPA: 7.44',
-    location: 'Chennai (Online/Remote)',
-    highlights: [
-      'In-depth study of Data Analysis, Statistics, and Machine Learning models',
-      'Hands-on experience with pre-processing, model training, and performance evaluation',
-      'Developing data-driven solutions for real-world problems using Python and SQL',
-    ],
-    isPrimary: false,
   },
 ]
 
@@ -135,7 +122,7 @@ export default function About() {
                     With experience in building scalable full-stack applications and cloud-based distributed systems using <strong className="text-slate-800 dark:text-slate-200">Java, Python, JavaScript, and AWS</strong>, she has a proven ability to design RESTful APIs, implement secure authentication mechanisms, and deploy production-ready applications following software development best practices.
                   </p>
                   <p>
-                    She is currently pursuing a dual degree: <em>B.Tech in CSE (AI & ML)</em> from <strong>VIIIT PUNE</strong> and a <em>BS in Data Science</em> from <strong>IIIT Madras</strong>. This rigorous academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
+                    She achieved academic distinction in Computer Science from <strong>Yashwantrao College</strong> with <strong>Grade O (Outstanding)</strong> under Open Category. This academic path allows her to bridge the gap between theoretical machine learning and practical software engineering.
                   </p>
                   <p>
                     Beyond core development, she actively explores emerging technologies, having completed industry programs by <strong className="text-slate-800 dark:text-slate-200">Google (AI & ML)</strong>, <strong className="text-slate-800 dark:text-slate-200">AWS (Cloud Practices)</strong>, and <strong className="text-slate-800 dark:text-slate-200">EduSkills (Web Development)</strong>. Her goal is to leverage AI to solve complex real-world problems through robust and scalable software solutions.

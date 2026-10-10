@@ -55,13 +55,7 @@ const personSchema = {
   alumniOf: [
     {
       '@type': 'EducationalOrganization',
-      '@id': 'https://VIIIT.ac.in',
-      name: 'Vishwakarma Institute of Information Technology (VIIIT)',
-    },
-    {
-      '@type': 'EducationalOrganization',
-      '@id': 'https://iitm.ac.in',
-      name: 'Indian Institute of Technology Madras (IITM)',
+      name: 'Yashwantrao College',
     },
   ],
   

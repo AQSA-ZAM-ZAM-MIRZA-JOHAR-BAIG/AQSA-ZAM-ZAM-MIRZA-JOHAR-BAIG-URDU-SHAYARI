@@ -145,7 +145,7 @@ export default function Blogs() {
           </h1>
           <p className="text-blue-200 text-lg max-w-2xl mx-auto">
             In-depth technical analysis and research articles by{' '}
-            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at VIIIT PUNE & IIIT Madras.
+            <strong className="text-white">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong> — Computer Science student at Yashwantrao College (Grade O Outstanding, Open Category).
           </p>
         </section>
 
@@ -196,7 +196,7 @@ export default function Blogs() {
                   </span>
                   <span className="flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
-                    VIIIT PUNE
+                    Yashwantrao College
                   </span>
                 </div>
 
@@ -218,7 +218,7 @@ export default function Blogs() {
           <p className="text-center text-sm text-slate-400 mt-12">
             All articles written by{' '}
             <strong className="text-slate-600 dark:text-slate-300">AQSA ZAM ZAM MIRZA JOHAR BAIG</strong>{' '}
-            — CS Undergraduate, VIIIT PUNE & IIIT Madras · Last updated: March 2026
+            — CS Student, Yashwantrao College (Grade O Outstanding, Open Category) · Last updated: March 2026
           </p>
         </div>
       </div>
